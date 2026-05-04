@@ -1,0 +1,2283 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "copy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "copy",
+        "description": "copy",
+        "detail": "copy",
+        "documentation": {}
+    },
+    {
+        "label": "collections",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "collections",
+        "description": "collections",
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "simplify",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "simplify",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "table_row_to_text",
+        "importPath": "general_utils",
+        "description": "general_utils",
+        "isExtraImport": true,
+        "detail": "general_utils",
+        "documentation": {}
+    },
+    {
+        "label": "table_row_to_text",
+        "importPath": "general_utils",
+        "description": "general_utils",
+        "isExtraImport": true,
+        "detail": "general_utils",
+        "documentation": {}
+    },
+    {
+        "label": "table_row_to_text",
+        "importPath": "general_utils",
+        "description": "general_utils",
+        "isExtraImport": true,
+        "detail": "general_utils",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "enum",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "enum",
+        "description": "enum",
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "six",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "six",
+        "description": "six",
+        "detail": "six",
+        "documentation": {}
+    },
+    {
+        "label": "map",
+        "importPath": "six.moves",
+        "description": "six.moves",
+        "isExtraImport": true,
+        "detail": "six.moves",
+        "documentation": {}
+    },
+    {
+        "label": "range",
+        "importPath": "six.moves",
+        "description": "six.moves",
+        "isExtraImport": true,
+        "detail": "six.moves",
+        "documentation": {}
+    },
+    {
+        "label": "zip",
+        "importPath": "six.moves",
+        "description": "six.moves",
+        "isExtraImport": true,
+        "detail": "six.moves",
+        "documentation": {}
+    },
+    {
+        "label": "map",
+        "importPath": "six.moves",
+        "description": "six.moves",
+        "isExtraImport": true,
+        "detail": "six.moves",
+        "documentation": {}
+    },
+    {
+        "label": "range",
+        "importPath": "six.moves",
+        "description": "six.moves",
+        "isExtraImport": true,
+        "detail": "six.moves",
+        "documentation": {}
+    },
+    {
+        "label": "zip",
+        "importPath": "six.moves",
+        "description": "six.moves",
+        "isExtraImport": true,
+        "detail": "six.moves",
+        "documentation": {}
+    },
+    {
+        "label": "parameters",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "parameters",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "parameters",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "parameters",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "parameters",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "parameters",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "parameters",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "parameters",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "parameters",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "parameters",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "torch.optim",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.optim",
+        "description": "torch.optim",
+        "detail": "torch.optim",
+        "documentation": {}
+    },
+    {
+        "label": "Bert_model",
+        "importPath": "Model_new",
+        "description": "Model_new",
+        "isExtraImport": true,
+        "detail": "Model_new",
+        "documentation": {}
+    },
+    {
+        "label": "Bert_model",
+        "importPath": "Model_new",
+        "description": "Model_new",
+        "isExtraImport": true,
+        "detail": "Model_new",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn.functional",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn.functional",
+        "description": "torch.nn.functional",
+        "detail": "torch.nn.functional",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "zipfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "zipfile",
+        "description": "zipfile",
+        "detail": "zipfile",
+        "documentation": {}
+    },
+    {
+        "label": "BertTokenizer",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "BertModel",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "BertConfig",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "BertTokenizer",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "BertModel",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "BertConfig",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTokenizer",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "finqa_utils",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "finqa_utils",
+        "description": "finqa_utils",
+        "detail": "finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "Bert_model",
+        "importPath": "Model",
+        "description": "Model",
+        "isExtraImport": true,
+        "detail": "Model",
+        "documentation": {}
+    },
+    {
+        "label": "Bert_model",
+        "importPath": "Model",
+        "description": "Model",
+        "isExtraImport": true,
+        "detail": "Model",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "faiss",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "faiss",
+        "description": "faiss",
+        "detail": "faiss",
+        "documentation": {}
+    },
+    {
+        "label": "BM25Okapi",
+        "importPath": "rank_bm25",
+        "description": "rank_bm25",
+        "isExtraImport": true,
+        "detail": "rank_bm25",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "parse_args",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.enrich_dataset",
+        "description": "A_custom_JSON_scripts.enrich_dataset",
+        "peekOfCode": "def parse_args():\n    parser = argparse.ArgumentParser(\n        description=\"Enrich a finance QA JSON dataset with expanded pre_text and post_text fields.\"\n    )\n    parser.add_argument(\"input_file\",  help=\"Path to the original flat JSON file.\")\n    parser.add_argument(\"output_file\", help=\"Path for the new enriched JSON file.\")\n    parser.add_argument(\n        \"--seed\", type=int, default=None,\n        help=\"Optional integer seed for full reproducibility.\"\n    )",
+        "detail": "A_custom_JSON_scripts.enrich_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "build_pools",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.enrich_dataset",
+        "description": "A_custom_JSON_scripts.enrich_dataset",
+        "peekOfCode": "def build_pools(data: list[dict]) -> dict[str, list[dict]]:\n    \"\"\"\n    Build a dict mapping each company ticker to all entries for that ticker.\n    E.g., { \"IP\": [...], \"ADI\": [...], ... }\n    The global pool is just `data` itself and is handled at call sites.\n    \"\"\"\n    company_pool = defaultdict(list)\n    for entry in data:\n        ticker = entry[\"filename\"].split(\"/\")[0]\n        company_pool[ticker].append(entry)",
+        "detail": "A_custom_JSON_scripts.enrich_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "sample_sources",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.enrich_dataset",
+        "description": "A_custom_JSON_scripts.enrich_dataset",
+        "peekOfCode": "def sample_sources(\n    current_filename: str,\n    ticker: str,\n    company_pool: dict[str, list[dict]],\n    global_pool: list[dict],\n    rng: random.Random,\n    n: int = 9,\n) -> list[dict]:\n    \"\"\"\n    Return n entries with filenames that are:",
+        "detail": "A_custom_JSON_scripts.enrich_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "expand_field",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.enrich_dataset",
+        "description": "A_custom_JSON_scripts.enrich_dataset",
+        "peekOfCode": "def expand_field(\n    original: list[str],\n    blocks: list[list[str]],\n    k: int,\n) -> list[str]:\n    \"\"\"\n    Interleave 9 extra blocks around the original list.\n    k  : number of blocks placed BEFORE the original (0-9 inclusive)\n    The remaining (9 - k) blocks go AFTER the original.\n    All blocks are flattened into a single list of strings.",
+        "detail": "A_custom_JSON_scripts.enrich_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "enrich",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.enrich_dataset",
+        "description": "A_custom_JSON_scripts.enrich_dataset",
+        "peekOfCode": "def enrich(data: list[dict], company_pool: dict, rng: random.Random) -> list[dict]:\n    enriched = []\n    for entry in data:\n        # Deep-copy so the original dict is never mutated\n        new_entry = copy.deepcopy(entry)\n        current_filename = entry[\"filename\"]\n        ticker = current_filename.split(\"/\")[0]\n        # Sample 9 unique-filename sources\n        sources = sample_sources(\n            current_filename=current_filename,",
+        "detail": "A_custom_JSON_scripts.enrich_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.enrich_dataset",
+        "description": "A_custom_JSON_scripts.enrich_dataset",
+        "peekOfCode": "def main():\n    args = parse_args()\n    # Seed the RNG (None = non-deterministic)\n    rng = random.Random(args.seed)\n    print(f\"Loading input file: {args.input_file}\")\n    with open(args.input_file, \"r\", encoding=\"utf-8\") as f:\n        data = json.load(f)\n    print(f\"  Loaded {len(data)} entries.\")\n    print(\"Building lookup pools...\")\n    company_pool = build_pools(data)",
+        "detail": "A_custom_JSON_scripts.enrich_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "str_to_num",
+        "kind": 2,
+        "importPath": "code.evaluate.evaluate",
+        "description": "code.evaluate.evaluate",
+        "peekOfCode": "def str_to_num(text):\n    text = text.replace(\",\", \"\")\n    try:\n        num = float(text)\n    except ValueError:\n        if \"%\" in text:\n            text = text.replace(\"%\", \"\")\n            try:\n                num = float(text)\n                num = num / 100.0",
+        "detail": "code.evaluate.evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "process_row",
+        "kind": 2,
+        "importPath": "code.evaluate.evaluate",
+        "description": "code.evaluate.evaluate",
+        "peekOfCode": "def process_row(row_in):\n    row_out = []\n    invalid_flag = 0\n    for num in row_in:\n        num = num.replace(\"$\", \"\").strip()\n        num = num.split(\"(\")[0].strip()\n        num = str_to_num(num)\n        if num == \"n/a\":\n            invalid_flag = 1\n            break",
+        "detail": "code.evaluate.evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "eval_program",
+        "kind": 2,
+        "importPath": "code.evaluate.evaluate",
+        "description": "code.evaluate.evaluate",
+        "peekOfCode": "def eval_program(program, table):\n    '''\n    calculate the numerical results of the program\n    '''\n    invalid_flag = 0\n    this_res = \"n/a\"\n    try:\n        program = program[:-1] # remove EOF\n        # check structure\n        for ind, token in enumerate(program):",
+        "detail": "code.evaluate.evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "equal_program",
+        "kind": 2,
+        "importPath": "code.evaluate.evaluate",
+        "description": "code.evaluate.evaluate",
+        "peekOfCode": "def equal_program(program1, program2):\n    '''\n    symbolic program if equal\n    program1: gold\n    program2: pred\n    '''\n    sym_map = {}\n    program1 = program1[:-1] # remove EOF\n    program1 = \"|\".join(program1)\n    steps = program1.split(\")\")[:-1]",
+        "detail": "code.evaluate.evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "program_tokenization",
+        "kind": 2,
+        "importPath": "code.evaluate.evaluate",
+        "description": "code.evaluate.evaluate",
+        "peekOfCode": "def program_tokenization(original_program):\n    original_program = original_program.split(', ')\n    program = []\n    for tok in original_program:\n        cur_tok = ''\n        for c in tok:\n            if c == ')':\n                if cur_tok != '':\n                    program.append(cur_tok)\n                    cur_tok = ''",
+        "detail": "code.evaluate.evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate_result",
+        "kind": 2,
+        "importPath": "code.evaluate.evaluate",
+        "description": "code.evaluate.evaluate",
+        "peekOfCode": "def evaluate_result(json_in, json_ori):\n    '''\n    execution acc\n    program acc\n    '''\n    correct = 0\n    with open(json_in) as f_in:\n        data = json.load(f_in)\n    with open(json_ori) as f_in:\n        data_ori = json.load(f_in)",
+        "detail": "code.evaluate.evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "all_ops",
+        "kind": 5,
+        "importPath": "code.evaluate.evaluate",
+        "description": "code.evaluate.evaluate",
+        "peekOfCode": "all_ops = [\"add\", \"subtract\", \"multiply\", \"divide\", \"exp\", \"greater\", \"table_max\", \\\n\"table_min\", \"table_sum\", \"table_average\"]\ndef str_to_num(text):\n    text = text.replace(\",\", \"\")\n    try:\n        num = float(text)\n    except ValueError:\n        if \"%\" in text:\n            text = text.replace(\"%\", \"\")\n            try:",
+        "detail": "code.evaluate.evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "parameters",
+        "kind": 6,
+        "importPath": "code.generator.config",
+        "description": "code.generator.config",
+        "peekOfCode": "class parameters():\n    prog_name = \"generator\"\n    # set up your own path here\n    root_path = \"your_project_path\"\n    output_path = \"path_to_store_outputs\"\n    cache_dir = \"path_for_other_cache\"\n    model_save_name = \"bert-base\"\n    # train_file = root_path + \"dataset/train.json\"\n    # valid_file = root_path + \"dataset/dev.json\"\n    # test_file = root_path + \"dataset/test.json\"",
+        "detail": "code.generator.config",
+        "documentation": {}
+    },
+    {
+        "label": "convert_test",
+        "kind": 2,
+        "importPath": "code.generator.Convert",
+        "description": "code.generator.Convert",
+        "peekOfCode": "def convert_test(json_in, json_out, topn, max_len):\n    with open(json_in) as f_in:\n        data = json.load(f_in)\n    for each_data in data:\n        table_retrieved = each_data[\"table_retrieved\"]\n        text_retrieved = each_data[\"text_retrieved\"]\n        pre_text = each_data[\"pre_text\"]\n        post_text = each_data[\"post_text\"]\n        all_text = pre_text + post_text\n        table = each_data[\"table\"]",
+        "detail": "code.generator.Convert",
+        "documentation": {}
+    },
+    {
+        "label": "convert_train",
+        "kind": 2,
+        "importPath": "code.generator.Convert",
+        "description": "code.generator.Convert",
+        "peekOfCode": "def convert_train(json_in, json_out, topn, max_len):\n    with open(json_in) as f_in:\n        data = json.load(f_in)\n    for each_data in data:\n        table_retrieved = each_data[\"table_retrieved\"]\n        text_retrieved = each_data[\"text_retrieved\"]\n        pre_text = each_data[\"pre_text\"]\n        post_text = each_data[\"post_text\"]\n        all_text = pre_text + post_text\n        gold_inds = each_data[\"qa\"][\"gold_inds\"]",
+        "detail": "code.generator.Convert",
+        "documentation": {}
+    },
+    {
+        "label": "convert_generator_sliding",
+        "kind": 2,
+        "importPath": "code.generator.Convert",
+        "description": "code.generator.Convert",
+        "peekOfCode": "def convert_generator_sliding(json_in, json_out, max_len, stride, mode=\"train\"):\n    '''\n    extract examples that can be covered by sliding windows\n    exclude others\n    '''\n    with open(json_in) as f_in:\n        data = json.load(f_in)\n    good_window = 0\n    res = []\n    for each_data in data:",
+        "detail": "code.generator.Convert",
+        "documentation": {}
+    },
+    {
+        "label": "convert_test_infer",
+        "kind": 2,
+        "importPath": "code.generator.Convert",
+        "description": "code.generator.Convert",
+        "peekOfCode": "def convert_test_infer(json_in, json_out, topn, mode):\n    with open(json_in) as f_in:\n        data = json.load(f_in)\n    for each_data in data:\n        table_retrieved = each_data[\"table_retrieved_all\"]\n        text_retrieved = each_data[\"text_retrieved_all\"]\n        pre_text = each_data[\"pre_text\"]\n        post_text = each_data[\"post_text\"]\n        all_text = pre_text + post_text\n        table = each_data[\"table\"]",
+        "detail": "code.generator.Convert",
+        "documentation": {}
+    },
+    {
+        "label": "MathQAExample",
+        "kind": 6,
+        "importPath": "code.generator.finqa_utils",
+        "description": "code.generator.finqa_utils",
+        "peekOfCode": "class MathQAExample(\n        collections.namedtuple(\n            \"MathQAExample\",\n            \"id original_question question_tokens options answer \\\n            numbers number_indices original_program program\"\n        )):\n    def convert_single_example(self, *args, **kwargs):\n        return convert_single_mathqa_example(self, *args, **kwargs)\nclass InputFeatures(object):\n    \"\"\"A single set of features of data.\"\"\"",
+        "detail": "code.generator.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "InputFeatures",
+        "kind": 6,
+        "importPath": "code.generator.finqa_utils",
+        "description": "code.generator.finqa_utils",
+        "peekOfCode": "class InputFeatures(object):\n    \"\"\"A single set of features of data.\"\"\"\n    def __init__(self,\n                 unique_id,\n                 example_index,\n                 tokens,\n                 question,\n                 input_ids,\n                 input_mask,\n                 option_mask,",
+        "detail": "code.generator.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "str_to_num",
+        "kind": 2,
+        "importPath": "code.generator.finqa_utils",
+        "description": "code.generator.finqa_utils",
+        "peekOfCode": "def str_to_num(text):\n    text = text.replace(\",\", \"\")\n    try:\n        num = int(text)\n    except ValueError:\n        try:\n            num = float(text)\n        except ValueError:\n            if text and text[-1] == \"%\":\n                num = text",
+        "detail": "code.generator.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "prog_token_to_indices",
+        "kind": 2,
+        "importPath": "code.generator.finqa_utils",
+        "description": "code.generator.finqa_utils",
+        "peekOfCode": "def prog_token_to_indices(prog, numbers, number_indices, max_seq_length,\n                          op_list, op_list_size, const_list,\n                          const_list_size):\n    prog_indices = []\n    for i, token in enumerate(prog):\n        if token in op_list:\n            prog_indices.append(op_list.index(token))\n        elif token in const_list:\n            prog_indices.append(op_list_size + const_list.index(token))\n        else:",
+        "detail": "code.generator.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "indices_to_prog",
+        "kind": 2,
+        "importPath": "code.generator.finqa_utils",
+        "description": "code.generator.finqa_utils",
+        "peekOfCode": "def indices_to_prog(program_indices, numbers, number_indices, max_seq_length,\n                    op_list, op_list_size, const_list, const_list_size):\n    prog = []\n    for i, prog_id in enumerate(program_indices):\n        if prog_id < op_list_size:\n            prog.append(op_list[prog_id])\n        elif prog_id < op_list_size + const_list_size:\n            prog.append(const_list[prog_id - op_list_size])\n        else:\n            prog.append(numbers[number_indices.index(prog_id - op_list_size",
+        "detail": "code.generator.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "tokenize",
+        "kind": 2,
+        "importPath": "code.generator.finqa_utils",
+        "description": "code.generator.finqa_utils",
+        "peekOfCode": "def tokenize(tokenizer, text, apply_basic_tokenization=False):\n    \"\"\"Tokenizes text, optionally looking up special tokens separately.\n    Args:\n      tokenizer: a tokenizer from bert.tokenization.FullTokenizer\n      text: text to tokenize\n      apply_basic_tokenization: If True, apply the basic tokenization. If False,\n        apply the full tokenization (basic + wordpiece).\n    Returns:\n      tokenized text.\n    A special token is any text with no spaces enclosed in square brackets with no",
+        "detail": "code.generator.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "program_tokenization",
+        "kind": 2,
+        "importPath": "code.generator.finqa_utils",
+        "description": "code.generator.finqa_utils",
+        "peekOfCode": "def program_tokenization(original_program):\n    original_program = original_program.split(', ')\n    program = []\n    for tok in original_program:\n        cur_tok = ''\n        for c in tok:\n            if c == ')':\n                if cur_tok != '':\n                    program.append(cur_tok)\n                    cur_tok = ''",
+        "detail": "code.generator.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "convert_single_mathqa_example",
+        "kind": 2,
+        "importPath": "code.generator.finqa_utils",
+        "description": "code.generator.finqa_utils",
+        "peekOfCode": "def convert_single_mathqa_example(example, is_training, tokenizer, max_seq_length,\n                                  max_program_length, op_list, op_list_size,\n                                  const_list, const_list_size,\n                                  cls_token, sep_token):\n    \"\"\"Converts a single MathQAExample into an InputFeature.\"\"\"\n    features = []\n    question_tokens = example.question_tokens\n    if len(question_tokens) >  max_seq_length - 2:\n        print(\"too long\")\n        question_tokens = question_tokens[:max_seq_length - 2]",
+        "detail": "code.generator.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "read_mathqa_entry",
+        "kind": 2,
+        "importPath": "code.generator.finqa_utils",
+        "description": "code.generator.finqa_utils",
+        "peekOfCode": "def read_mathqa_entry(entry, tokenizer):\n    question = entry[\"qa\"][\"question\"]\n    this_id = entry[\"id\"]\n    context = \"\"\n    if conf.retrieve_mode == \"single\":\n        for ind, each_sent in entry[\"qa\"][\"model_input\"]:\n            context += each_sent\n            context += \" \"\n    elif conf.retrieve_mode == \"slide\":\n        if len(entry[\"qa\"][\"pos_windows\"]) > 0:",
+        "detail": "code.generator.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "train",
+        "kind": 2,
+        "importPath": "code.generator.Main",
+        "description": "code.generator.Main",
+        "peekOfCode": "def train():\n    # keep track of all input parameters\n    write_log(log_file, \"####################INPUT PARAMETERS###################\")\n    for attr in conf.__dict__:\n        value = conf.__dict__[attr]\n        write_log(log_file, attr + \" = \" + str(value))\n    write_log(log_file, \"#######################################################\")\n    model = Bert_model(num_decoder_layers=conf.num_decoder_layers,\n                       hidden_size=model_config.hidden_size,\n                       dropout_rate=conf.dropout_rate,",
+        "detail": "code.generator.Main",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate",
+        "kind": 2,
+        "importPath": "code.generator.Main",
+        "description": "code.generator.Main",
+        "peekOfCode": "def evaluate(data_ori, data, model, ksave_dir, mode='valid'):\n    pred_list = []\n    pred_unk = []\n    ksave_dir_mode = os.path.join(ksave_dir, mode)\n    os.makedirs(ksave_dir_mode, exist_ok=True)\n    data_iterator = DataLoader(\n        is_training=False, data=data, batch_size=conf.batch_size_test, reserved_token_size=reserved_token_size, shuffle=False)\n    k = 0\n    all_results = []\n    with torch.no_grad():",
+        "detail": "code.generator.Main",
+        "documentation": {}
+    },
+    {
+        "label": "op_list",
+        "kind": 5,
+        "importPath": "code.generator.Main",
+        "description": "code.generator.Main",
+        "peekOfCode": "op_list = read_txt(conf.op_list_file, log_file)\nop_list = [op + '(' for op in op_list]\nop_list = ['EOF', 'UNK', 'GO', ')'] + op_list\nconst_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\nprint(op_list)\nprint(const_list)\ntrain_data, train_examples, op_list, const_list = \\\n    read_examples(input_path=conf.train_file, tokenizer=tokenizer,",
+        "detail": "code.generator.Main",
+        "documentation": {}
+    },
+    {
+        "label": "op_list",
+        "kind": 5,
+        "importPath": "code.generator.Main",
+        "description": "code.generator.Main",
+        "peekOfCode": "op_list = [op + '(' for op in op_list]\nop_list = ['EOF', 'UNK', 'GO', ')'] + op_list\nconst_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\nprint(op_list)\nprint(const_list)\ntrain_data, train_examples, op_list, const_list = \\\n    read_examples(input_path=conf.train_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)",
+        "detail": "code.generator.Main",
+        "documentation": {}
+    },
+    {
+        "label": "op_list",
+        "kind": 5,
+        "importPath": "code.generator.Main",
+        "description": "code.generator.Main",
+        "peekOfCode": "op_list = ['EOF', 'UNK', 'GO', ')'] + op_list\nconst_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\nprint(op_list)\nprint(const_list)\ntrain_data, train_examples, op_list, const_list = \\\n    read_examples(input_path=conf.train_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nvalid_data, valid_examples, op_list, const_list = \\",
+        "detail": "code.generator.Main",
+        "documentation": {}
+    },
+    {
+        "label": "const_list",
+        "kind": 5,
+        "importPath": "code.generator.Main",
+        "description": "code.generator.Main",
+        "peekOfCode": "const_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\nprint(op_list)\nprint(const_list)\ntrain_data, train_examples, op_list, const_list = \\\n    read_examples(input_path=conf.train_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nvalid_data, valid_examples, op_list, const_list = \\\n    read_examples(input_path=conf.valid_file, tokenizer=tokenizer,",
+        "detail": "code.generator.Main",
+        "documentation": {}
+    },
+    {
+        "label": "const_list",
+        "kind": 5,
+        "importPath": "code.generator.Main",
+        "description": "code.generator.Main",
+        "peekOfCode": "const_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\nprint(op_list)\nprint(const_list)\ntrain_data, train_examples, op_list, const_list = \\\n    read_examples(input_path=conf.train_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nvalid_data, valid_examples, op_list, const_list = \\\n    read_examples(input_path=conf.valid_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)",
+        "detail": "code.generator.Main",
+        "documentation": {}
+    },
+    {
+        "label": "reserved_token_size",
+        "kind": 5,
+        "importPath": "code.generator.Main",
+        "description": "code.generator.Main",
+        "peekOfCode": "reserved_token_size = len(op_list) + len(const_list)\nprint(op_list)\nprint(const_list)\ntrain_data, train_examples, op_list, const_list = \\\n    read_examples(input_path=conf.train_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nvalid_data, valid_examples, op_list, const_list = \\\n    read_examples(input_path=conf.valid_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\ntest_data, test_examples, op_list, const_list = \\",
+        "detail": "code.generator.Main",
+        "documentation": {}
+    },
+    {
+        "label": "kwargs",
+        "kind": 5,
+        "importPath": "code.generator.Main",
+        "description": "code.generator.Main",
+        "peekOfCode": "kwargs = {\"examples\": train_examples,\n          \"tokenizer\": tokenizer,\n          \"max_seq_length\": conf.max_seq_length,\n          \"max_program_length\": conf.max_program_length,\n          \"is_training\": True,\n          \"op_list\": op_list,\n          \"op_list_size\": len(op_list),\n          \"const_list\": const_list,\n          \"const_list_size\": len(const_list),\n          \"verbose\": True}",
+        "detail": "code.generator.Main",
+        "documentation": {}
+    },
+    {
+        "label": "train_features",
+        "kind": 5,
+        "importPath": "code.generator.Main",
+        "description": "code.generator.Main",
+        "peekOfCode": "train_features = convert_examples_to_features(**kwargs)\nkwargs[\"examples\"] = valid_examples\nkwargs[\"is_training\"] = False\nvalid_features = convert_examples_to_features(**kwargs)\nkwargs[\"examples\"] = test_examples\ntest_features = convert_examples_to_features(**kwargs)\ndef train():\n    # keep track of all input parameters\n    write_log(log_file, \"####################INPUT PARAMETERS###################\")\n    for attr in conf.__dict__:",
+        "detail": "code.generator.Main",
+        "documentation": {}
+    },
+    {
+        "label": "kwargs[\"examples\"]",
+        "kind": 5,
+        "importPath": "code.generator.Main",
+        "description": "code.generator.Main",
+        "peekOfCode": "kwargs[\"examples\"] = valid_examples\nkwargs[\"is_training\"] = False\nvalid_features = convert_examples_to_features(**kwargs)\nkwargs[\"examples\"] = test_examples\ntest_features = convert_examples_to_features(**kwargs)\ndef train():\n    # keep track of all input parameters\n    write_log(log_file, \"####################INPUT PARAMETERS###################\")\n    for attr in conf.__dict__:\n        value = conf.__dict__[attr]",
+        "detail": "code.generator.Main",
+        "documentation": {}
+    },
+    {
+        "label": "kwargs[\"is_training\"]",
+        "kind": 5,
+        "importPath": "code.generator.Main",
+        "description": "code.generator.Main",
+        "peekOfCode": "kwargs[\"is_training\"] = False\nvalid_features = convert_examples_to_features(**kwargs)\nkwargs[\"examples\"] = test_examples\ntest_features = convert_examples_to_features(**kwargs)\ndef train():\n    # keep track of all input parameters\n    write_log(log_file, \"####################INPUT PARAMETERS###################\")\n    for attr in conf.__dict__:\n        value = conf.__dict__[attr]\n        write_log(log_file, attr + \" = \" + str(value))",
+        "detail": "code.generator.Main",
+        "documentation": {}
+    },
+    {
+        "label": "valid_features",
+        "kind": 5,
+        "importPath": "code.generator.Main",
+        "description": "code.generator.Main",
+        "peekOfCode": "valid_features = convert_examples_to_features(**kwargs)\nkwargs[\"examples\"] = test_examples\ntest_features = convert_examples_to_features(**kwargs)\ndef train():\n    # keep track of all input parameters\n    write_log(log_file, \"####################INPUT PARAMETERS###################\")\n    for attr in conf.__dict__:\n        value = conf.__dict__[attr]\n        write_log(log_file, attr + \" = \" + str(value))\n    write_log(log_file, \"#######################################################\")",
+        "detail": "code.generator.Main",
+        "documentation": {}
+    },
+    {
+        "label": "kwargs[\"examples\"]",
+        "kind": 5,
+        "importPath": "code.generator.Main",
+        "description": "code.generator.Main",
+        "peekOfCode": "kwargs[\"examples\"] = test_examples\ntest_features = convert_examples_to_features(**kwargs)\ndef train():\n    # keep track of all input parameters\n    write_log(log_file, \"####################INPUT PARAMETERS###################\")\n    for attr in conf.__dict__:\n        value = conf.__dict__[attr]\n        write_log(log_file, attr + \" = \" + str(value))\n    write_log(log_file, \"#######################################################\")\n    model = Bert_model(num_decoder_layers=conf.num_decoder_layers,",
+        "detail": "code.generator.Main",
+        "documentation": {}
+    },
+    {
+        "label": "test_features",
+        "kind": 5,
+        "importPath": "code.generator.Main",
+        "description": "code.generator.Main",
+        "peekOfCode": "test_features = convert_examples_to_features(**kwargs)\ndef train():\n    # keep track of all input parameters\n    write_log(log_file, \"####################INPUT PARAMETERS###################\")\n    for attr in conf.__dict__:\n        value = conf.__dict__[attr]\n        write_log(log_file, attr + \" = \" + str(value))\n    write_log(log_file, \"#######################################################\")\n    model = Bert_model(num_decoder_layers=conf.num_decoder_layers,\n                       hidden_size=model_config.hidden_size,",
+        "detail": "code.generator.Main",
+        "documentation": {}
+    },
+    {
+        "label": "Bert_model",
+        "kind": 6,
+        "importPath": "code.generator.Model_new",
+        "description": "code.generator.Model_new",
+        "peekOfCode": "class Bert_model(nn.Module):\n    def __init__(self, num_decoder_layers, hidden_size, dropout_rate, input_length,\n                 program_length, op_list, const_list):\n        super(Bert_model, self).__init__()\n        self.op_list_size = len(op_list)\n        self.const_list_size = len(const_list)\n        self.reserved_token_size = self.op_list_size + self.const_list_size\n        self.program_length = program_length\n        self.hidden_size = hidden_size\n        self.const_list = const_list",
+        "detail": "code.generator.Model_new",
+        "documentation": {}
+    },
+    {
+        "label": "generate",
+        "kind": 2,
+        "importPath": "code.generator.Test",
+        "description": "code.generator.Test",
+        "peekOfCode": "def generate(data_ori, data, model, ksave_dir, mode='valid'):\n    pred_list = []\n    pred_unk = []\n    ksave_dir_mode = os.path.join(ksave_dir, mode)\n    os.makedirs(ksave_dir_mode, exist_ok=True)\n    data_iterator = DataLoader(\n        is_training=False, data=data, batch_size=conf.batch_size_test, reserved_token_size=reserved_token_size, shuffle=False)\n    k = 0\n    all_results = []\n    with torch.no_grad():",
+        "detail": "code.generator.Test",
+        "documentation": {}
+    },
+    {
+        "label": "generate_test",
+        "kind": 2,
+        "importPath": "code.generator.Test",
+        "description": "code.generator.Test",
+        "peekOfCode": "def generate_test():\n    model = Bert_model(num_decoder_layers=conf.num_decoder_layers,\n                       hidden_size=model_config.hidden_size,\n                       dropout_rate=conf.dropout_rate,\n                       program_length=conf.max_program_length,\n                       input_length=conf.max_seq_length,\n                       op_list=op_list,\n                       const_list=const_list)\n    model = nn.DataParallel(model)\n    model.to(conf.device)",
+        "detail": "code.generator.Test",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate_score",
+        "kind": 2,
+        "importPath": "code.generator.Test",
+        "description": "code.generator.Test",
+        "peekOfCode": "def evaluate_score(file_in, error_file, all_res_file):\n    exe_acc, prog_acc = evaluate_result(\n        file_in, conf.test_file, all_res_file, error_file, program_mode=conf.program_mode)\n    prog_res = \"exe acc: \" + str(exe_acc) + \" prog acc: \" + str(prog_acc)\n    write_log(log_file, prog_res)\nif __name__ == '__main__':\n    generate_test()",
+        "detail": "code.generator.Test",
+        "documentation": {}
+    },
+    {
+        "label": "saved_model_path",
+        "kind": 5,
+        "importPath": "code.generator.Test",
+        "description": "code.generator.Test",
+        "peekOfCode": "saved_model_path = os.path.join(conf.output_path, conf.saved_model_path)\n# model_dir_name = datetime.now().strftime(\"%Y%m%d%H%M%S\")\nmodel_dir_name = datetime.now().strftime(\"%Y%m%d%H%M%S\") + \\\n    \"_\" + conf.model_save_name\nmodel_dir = os.path.join(\n    conf.output_path, 'inference_only_' + model_dir_name)\nresults_path = os.path.join(model_dir, \"results\")\nos.makedirs(results_path, exist_ok=False)\nlog_file = os.path.join(results_path, 'log.txt')\nop_list = read_txt(conf.op_list_file, log_file)",
+        "detail": "code.generator.Test",
+        "documentation": {}
+    },
+    {
+        "label": "model_dir_name",
+        "kind": 5,
+        "importPath": "code.generator.Test",
+        "description": "code.generator.Test",
+        "peekOfCode": "model_dir_name = datetime.now().strftime(\"%Y%m%d%H%M%S\") + \\\n    \"_\" + conf.model_save_name\nmodel_dir = os.path.join(\n    conf.output_path, 'inference_only_' + model_dir_name)\nresults_path = os.path.join(model_dir, \"results\")\nos.makedirs(results_path, exist_ok=False)\nlog_file = os.path.join(results_path, 'log.txt')\nop_list = read_txt(conf.op_list_file, log_file)\nop_list = [op + '(' for op in op_list]\nop_list = ['EOF', 'UNK', 'GO', ')'] + op_list",
+        "detail": "code.generator.Test",
+        "documentation": {}
+    },
+    {
+        "label": "model_dir",
+        "kind": 5,
+        "importPath": "code.generator.Test",
+        "description": "code.generator.Test",
+        "peekOfCode": "model_dir = os.path.join(\n    conf.output_path, 'inference_only_' + model_dir_name)\nresults_path = os.path.join(model_dir, \"results\")\nos.makedirs(results_path, exist_ok=False)\nlog_file = os.path.join(results_path, 'log.txt')\nop_list = read_txt(conf.op_list_file, log_file)\nop_list = [op + '(' for op in op_list]\nop_list = ['EOF', 'UNK', 'GO', ')'] + op_list\nconst_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]",
+        "detail": "code.generator.Test",
+        "documentation": {}
+    },
+    {
+        "label": "results_path",
+        "kind": 5,
+        "importPath": "code.generator.Test",
+        "description": "code.generator.Test",
+        "peekOfCode": "results_path = os.path.join(model_dir, \"results\")\nos.makedirs(results_path, exist_ok=False)\nlog_file = os.path.join(results_path, 'log.txt')\nop_list = read_txt(conf.op_list_file, log_file)\nop_list = [op + '(' for op in op_list]\nop_list = ['EOF', 'UNK', 'GO', ')'] + op_list\nconst_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\ntest_data, test_examples, op_list, const_list = \\",
+        "detail": "code.generator.Test",
+        "documentation": {}
+    },
+    {
+        "label": "log_file",
+        "kind": 5,
+        "importPath": "code.generator.Test",
+        "description": "code.generator.Test",
+        "peekOfCode": "log_file = os.path.join(results_path, 'log.txt')\nop_list = read_txt(conf.op_list_file, log_file)\nop_list = [op + '(' for op in op_list]\nop_list = ['EOF', 'UNK', 'GO', ')'] + op_list\nconst_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\ntest_data, test_examples, op_list, const_list = \\\n    read_examples(input_path=conf.test_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)",
+        "detail": "code.generator.Test",
+        "documentation": {}
+    },
+    {
+        "label": "op_list",
+        "kind": 5,
+        "importPath": "code.generator.Test",
+        "description": "code.generator.Test",
+        "peekOfCode": "op_list = read_txt(conf.op_list_file, log_file)\nop_list = [op + '(' for op in op_list]\nop_list = ['EOF', 'UNK', 'GO', ')'] + op_list\nconst_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\ntest_data, test_examples, op_list, const_list = \\\n    read_examples(input_path=conf.test_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nprint(const_list)",
+        "detail": "code.generator.Test",
+        "documentation": {}
+    },
+    {
+        "label": "op_list",
+        "kind": 5,
+        "importPath": "code.generator.Test",
+        "description": "code.generator.Test",
+        "peekOfCode": "op_list = [op + '(' for op in op_list]\nop_list = ['EOF', 'UNK', 'GO', ')'] + op_list\nconst_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\ntest_data, test_examples, op_list, const_list = \\\n    read_examples(input_path=conf.test_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nprint(const_list)\nprint(op_list)",
+        "detail": "code.generator.Test",
+        "documentation": {}
+    },
+    {
+        "label": "op_list",
+        "kind": 5,
+        "importPath": "code.generator.Test",
+        "description": "code.generator.Test",
+        "peekOfCode": "op_list = ['EOF', 'UNK', 'GO', ')'] + op_list\nconst_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\ntest_data, test_examples, op_list, const_list = \\\n    read_examples(input_path=conf.test_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nprint(const_list)\nprint(op_list)\nkwargs = {\"examples\": test_examples,",
+        "detail": "code.generator.Test",
+        "documentation": {}
+    },
+    {
+        "label": "const_list",
+        "kind": 5,
+        "importPath": "code.generator.Test",
+        "description": "code.generator.Test",
+        "peekOfCode": "const_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\ntest_data, test_examples, op_list, const_list = \\\n    read_examples(input_path=conf.test_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nprint(const_list)\nprint(op_list)\nkwargs = {\"examples\": test_examples,\n          \"tokenizer\": tokenizer,",
+        "detail": "code.generator.Test",
+        "documentation": {}
+    },
+    {
+        "label": "const_list",
+        "kind": 5,
+        "importPath": "code.generator.Test",
+        "description": "code.generator.Test",
+        "peekOfCode": "const_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\ntest_data, test_examples, op_list, const_list = \\\n    read_examples(input_path=conf.test_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nprint(const_list)\nprint(op_list)\nkwargs = {\"examples\": test_examples,\n          \"tokenizer\": tokenizer,\n          \"max_seq_length\": conf.max_seq_length,",
+        "detail": "code.generator.Test",
+        "documentation": {}
+    },
+    {
+        "label": "reserved_token_size",
+        "kind": 5,
+        "importPath": "code.generator.Test",
+        "description": "code.generator.Test",
+        "peekOfCode": "reserved_token_size = len(op_list) + len(const_list)\ntest_data, test_examples, op_list, const_list = \\\n    read_examples(input_path=conf.test_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nprint(const_list)\nprint(op_list)\nkwargs = {\"examples\": test_examples,\n          \"tokenizer\": tokenizer,\n          \"max_seq_length\": conf.max_seq_length,\n          \"max_program_length\": conf.max_program_length,",
+        "detail": "code.generator.Test",
+        "documentation": {}
+    },
+    {
+        "label": "kwargs",
+        "kind": 5,
+        "importPath": "code.generator.Test",
+        "description": "code.generator.Test",
+        "peekOfCode": "kwargs = {\"examples\": test_examples,\n          \"tokenizer\": tokenizer,\n          \"max_seq_length\": conf.max_seq_length,\n          \"max_program_length\": conf.max_program_length,\n          \"is_training\": False,\n          \"op_list\": op_list,\n          \"op_list_size\": len(op_list),\n          \"const_list\": const_list,\n          \"const_list_size\": len(const_list),\n          \"verbose\": True}",
+        "detail": "code.generator.Test",
+        "documentation": {}
+    },
+    {
+        "label": "test_features",
+        "kind": 5,
+        "importPath": "code.generator.Test",
+        "description": "code.generator.Test",
+        "peekOfCode": "test_features = convert_examples_to_features(**kwargs)\ndef generate(data_ori, data, model, ksave_dir, mode='valid'):\n    pred_list = []\n    pred_unk = []\n    ksave_dir_mode = os.path.join(ksave_dir, mode)\n    os.makedirs(ksave_dir_mode, exist_ok=True)\n    data_iterator = DataLoader(\n        is_training=False, data=data, batch_size=conf.batch_size_test, reserved_token_size=reserved_token_size, shuffle=False)\n    k = 0\n    all_results = []",
+        "detail": "code.generator.Test",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "kind": 6,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "class DataLoader:\n    def __init__(self, is_training, data, reserved_token_size, batch_size=64, shuffle=True):\n        \"\"\"\n        Main dataloader\n        \"\"\"\n        self.data = data\n        self.batch_size = batch_size\n        self.is_training = is_training\n        self.data_size = len(data)\n        self.reserved_token_size = reserved_token_size",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "progress_bar",
+        "kind": 2,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "def progress_bar(current, total, msg=None):\n    global last_time, begin_time\n    if current == 0:\n        begin_time = time.time()  # Reset for new bar.\n    cur_len = int(TOTAL_BAR_LENGTH*current/total)\n    rest_len = int(TOTAL_BAR_LENGTH - cur_len) - 1\n    sys.stdout.write(' [')\n    for i in range(cur_len):\n        sys.stdout.write('=')\n    sys.stdout.write('>')",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "format_time",
+        "kind": 2,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "def format_time(seconds):\n    days = int(seconds / 3600/24)\n    seconds = seconds - days*3600*24\n    hours = int(seconds / 3600)\n    seconds = seconds - hours*3600\n    minutes = int(seconds / 60)\n    seconds = seconds - minutes*60\n    secondsf = int(seconds)\n    seconds = seconds - secondsf\n    millis = int(seconds*1000)",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "write_word",
+        "kind": 2,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "def write_word(pred_list, save_dir, name):\n    ss = open(save_dir + name, \"w+\")\n    for item in pred_list:\n        ss.write(\" \".join(item) + '\\n')\ndef get_current_git_version():\n    import git\n    repo = git.Repo(search_parent_directories=True)\n    sha = repo.head.object.hexsha\n    return sha\ndef write_log(log_file, s):",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_git_version",
+        "kind": 2,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "def get_current_git_version():\n    import git\n    repo = git.Repo(search_parent_directories=True)\n    sha = repo.head.object.hexsha\n    return sha\ndef write_log(log_file, s):\n    print(s)\n    with open(log_file, 'a') as f:\n        f.write(s+'\\n')\ndef _compute_softmax(scores):",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "write_log",
+        "kind": 2,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "def write_log(log_file, s):\n    print(s)\n    with open(log_file, 'a') as f:\n        f.write(s+'\\n')\ndef _compute_softmax(scores):\n    \"\"\"Compute softmax probability over raw logits.\"\"\"\n    if not scores:\n        return []\n    max_score = None\n    for score in scores:",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "read_txt",
+        "kind": 2,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "def read_txt(input_path, log_file):\n    \"\"\"Read a txt file into a list.\"\"\"\n    write_log(log_file, \"Reading: %s\" % input_path)\n    with open(input_path) as input_file:\n        input_data = input_file.readlines()\n    items = []\n    for line in input_data:\n        items.append(line.strip())\n    return items\ndef read_examples(input_path, tokenizer, op_list, const_list, log_file):",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "read_examples",
+        "kind": 2,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "def read_examples(input_path, tokenizer, op_list, const_list, log_file):\n    \"\"\"Read a json file into a list of examples.\"\"\"\n    write_log(log_file, \"Reading \" + input_path)\n    with open(input_path) as input_file:\n        input_data = json.load(input_file)\n    examples = []\n    for entry in tqdm(input_data):\n        examples.append(finqa_utils.read_mathqa_entry(entry, tokenizer))\n        program = examples[-1].program\n        # for tok in program:",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "convert_examples_to_features",
+        "kind": 2,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "def convert_examples_to_features(examples,\n                                 tokenizer,\n                                 max_seq_length,\n                                 max_program_length,\n                                 is_training,\n                                 op_list,\n                                 op_list_size,\n                                 const_list,\n                                 const_list_size,\n                                 verbose=True):",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "compute_prog_from_logits",
+        "kind": 2,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "def compute_prog_from_logits(logits, max_program_length, example,\n                             template=None):\n    pred_prog_ids = []\n    op_stack = []\n    loss = 0\n    for cur_step in range(max_program_length):\n        cur_logits = logits[cur_step]\n        cur_pred_softmax = _compute_softmax(cur_logits)\n        cur_pred_token = np.argmax(cur_logits)\n        loss -= np.log(cur_pred_softmax[cur_pred_token])",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "compute_predictions",
+        "kind": 2,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "def compute_predictions(all_examples, all_features, all_results, n_best_size,\n                        max_program_length, tokenizer, op_list, op_list_size,\n                        const_list, const_list_size):\n    \"\"\"Computes final predictions based on logits.\"\"\"\n    example_index_to_features = collections.defaultdict(list)\n    for feature in all_features:\n        example_index_to_features[feature.example_index].append(feature)\n    unique_id_to_result = {}\n    for result in all_results:\n        unique_id_to_result[result.unique_id] = result",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "write_predictions",
+        "kind": 2,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "def write_predictions(all_predictions, output_prediction_file):\n    \"\"\"Writes final predictions in json format.\"\"\"\n    with open(output_prediction_file, \"w\") as writer:\n        writer.write(json.dumps(all_predictions, indent=4) + \"\\n\")\nclass DataLoader:\n    def __init__(self, is_training, data, reserved_token_size, batch_size=64, shuffle=True):\n        \"\"\"\n        Main dataloader\n        \"\"\"\n        self.data = data",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "cleanhtml",
+        "kind": 2,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "def cleanhtml(raw_html):\n    cleanr = re.compile('<.*?>')\n    cleantext = re.sub(cleanr, '', raw_html)\n    return cleantext\ndef str_to_num(text):\n    text = text.replace(\",\", \"\")\n    try:\n        num = float(text)\n    except ValueError:\n        if \"%\" in text:",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "str_to_num",
+        "kind": 2,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "def str_to_num(text):\n    text = text.replace(\",\", \"\")\n    try:\n        num = float(text)\n    except ValueError:\n        if \"%\" in text:\n            text = text.replace(\"%\", \"\")\n            try:\n                num = float(text)\n                num = num / 100.0",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "process_row",
+        "kind": 2,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "def process_row(row_in):\n    row_out = []\n    invalid_flag = 0\n    for num in row_in:\n        num = num.replace(\"$\", \"\").strip()\n        num = num.split(\"(\")[0].strip()\n        num = str_to_num(num)\n        if num == \"n/a\":\n            invalid_flag = 1\n            break",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "reprog_to_seq",
+        "kind": 2,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "def reprog_to_seq(prog_in, is_gold):\n    '''\n    predicted recursive program to list program\n    [\"divide(\", \"72\", \"multiply(\", \"6\", \"210\", \")\", \")\"]\n    [\"multiply(\", \"6\", \"210\", \")\", \"divide(\", \"72\", \"#0\", \")\"]\n    '''\n    st = []\n    res = []\n    try:\n        num = 0",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "eval_program",
+        "kind": 2,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "def eval_program(program, table):\n    '''\n    calculate the numerical results of the program\n    '''\n    invalid_flag = 0\n    this_res = \"n/a\"\n    try:\n        program = program[:-1]  # remove EOF\n        # check structure\n        for ind, token in enumerate(program):",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "equal_program",
+        "kind": 2,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "def equal_program(program1, program2):\n    '''\n    symbolic program if equal\n    program1: gold\n    program2: pred\n    '''\n    sym_map = {}\n    program1 = program1[:-1]  # remove EOF\n    program1 = \"|\".join(program1)\n    steps = program1.split(\")\")[:-1]",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate_result",
+        "kind": 2,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "def evaluate_result(json_in, json_ori, all_res_file, error_file, program_mode):\n    '''\n    execution acc\n    program acc\n    '''\n    correct = 0\n    with open(json_in) as f_in:\n        data = json.load(f_in)\n    with open(json_ori) as f_in:\n        data_ori = json.load(f_in)",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "TOTAL_BAR_LENGTH",
+        "kind": 5,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "TOTAL_BAR_LENGTH = 100.\nlast_time = time.time()\nbegin_time = last_time\nprint(os.popen('stty size', 'r').read())\n_, term_width = os.popen('stty size', 'r').read().split()\nterm_width = int(term_width)\nall_ops = [\"add\", \"subtract\", \"multiply\", \"divide\", \"exp\", \"greater\", \"table_max\",\n           \"table_min\", \"table_sum\", \"table_average\"]\ndef progress_bar(current, total, msg=None):\n    global last_time, begin_time",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "last_time",
+        "kind": 5,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "last_time = time.time()\nbegin_time = last_time\nprint(os.popen('stty size', 'r').read())\n_, term_width = os.popen('stty size', 'r').read().split()\nterm_width = int(term_width)\nall_ops = [\"add\", \"subtract\", \"multiply\", \"divide\", \"exp\", \"greater\", \"table_max\",\n           \"table_min\", \"table_sum\", \"table_average\"]\ndef progress_bar(current, total, msg=None):\n    global last_time, begin_time\n    if current == 0:",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "begin_time",
+        "kind": 5,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "begin_time = last_time\nprint(os.popen('stty size', 'r').read())\n_, term_width = os.popen('stty size', 'r').read().split()\nterm_width = int(term_width)\nall_ops = [\"add\", \"subtract\", \"multiply\", \"divide\", \"exp\", \"greater\", \"table_max\",\n           \"table_min\", \"table_sum\", \"table_average\"]\ndef progress_bar(current, total, msg=None):\n    global last_time, begin_time\n    if current == 0:\n        begin_time = time.time()  # Reset for new bar.",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "term_width",
+        "kind": 5,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "term_width = int(term_width)\nall_ops = [\"add\", \"subtract\", \"multiply\", \"divide\", \"exp\", \"greater\", \"table_max\",\n           \"table_min\", \"table_sum\", \"table_average\"]\ndef progress_bar(current, total, msg=None):\n    global last_time, begin_time\n    if current == 0:\n        begin_time = time.time()  # Reset for new bar.\n    cur_len = int(TOTAL_BAR_LENGTH*current/total)\n    rest_len = int(TOTAL_BAR_LENGTH - cur_len) - 1\n    sys.stdout.write(' [')",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "all_ops",
+        "kind": 5,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "all_ops = [\"add\", \"subtract\", \"multiply\", \"divide\", \"exp\", \"greater\", \"table_max\",\n           \"table_min\", \"table_sum\", \"table_average\"]\ndef progress_bar(current, total, msg=None):\n    global last_time, begin_time\n    if current == 0:\n        begin_time = time.time()  # Reset for new bar.\n    cur_len = int(TOTAL_BAR_LENGTH*current/total)\n    rest_len = int(TOTAL_BAR_LENGTH - cur_len) - 1\n    sys.stdout.write(' [')\n    for i in range(cur_len):",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "RawResult",
+        "kind": 5,
+        "importPath": "code.generator.utils",
+        "description": "code.generator.utils",
+        "peekOfCode": "RawResult = collections.namedtuple(\n    \"RawResult\",\n    \"unique_id logits loss\")\ndef compute_prog_from_logits(logits, max_program_length, example,\n                             template=None):\n    pred_prog_ids = []\n    op_stack = []\n    loss = 0\n    for cur_step in range(max_program_length):\n        cur_logits = logits[cur_step]",
+        "detail": "code.generator.utils",
+        "documentation": {}
+    },
+    {
+        "label": "parameters",
+        "kind": 6,
+        "importPath": "code.retriever.config",
+        "description": "code.retriever.config",
+        "peekOfCode": "class parameters():\n    prog_name = \"retriever\"\n    # set up your own path here\n    root_path = \"your_project_path\"\n    output_path = \"path_to_store_outputs\"\n    cache_dir = \"path_for_other_cache\"\n    # the name of your result folder.\n    model_save_name = \"retriever-bert-base-test\"\n    train_file = root_path + \"dataset/train.json\"\n    valid_file = root_path + \"dataset/dev.json\"",
+        "detail": "code.retriever.config",
+        "documentation": {}
+    },
+    {
+        "label": "MathQAExample",
+        "kind": 6,
+        "importPath": "code.retriever.finqa_utils",
+        "description": "code.retriever.finqa_utils",
+        "peekOfCode": "class MathQAExample(\n        collections.namedtuple(\n            \"MathQAExample\",\n            \"filename_id question all_positive \\\n            pre_text post_text table\"\n        )):\n    def convert_single_example(self, *args, **kwargs):\n        return convert_single_mathqa_example(self, *args, **kwargs)\nclass InputFeatures(object):\n    \"\"\"A single set of features of data.\"\"\"",
+        "detail": "code.retriever.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "InputFeatures",
+        "kind": 6,
+        "importPath": "code.retriever.finqa_utils",
+        "description": "code.retriever.finqa_utils",
+        "peekOfCode": "class InputFeatures(object):\n    \"\"\"A single set of features of data.\"\"\"\n    def __init__(self,\n                 filename_id,\n                 retrieve_ind,\n                 tokens,\n                 input_ids,\n                 segment_ids,\n                 input_mask,\n                 label):",
+        "detail": "code.retriever.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "str_to_num",
+        "kind": 2,
+        "importPath": "code.retriever.finqa_utils",
+        "description": "code.retriever.finqa_utils",
+        "peekOfCode": "def str_to_num(text):\n    text = text.replace(\",\", \"\")\n    try:\n        num = int(text)\n    except ValueError:\n        try:\n            num = float(text)\n        except ValueError:\n            if text and text[-1] == \"%\":\n                num = text",
+        "detail": "code.retriever.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "prog_token_to_indices",
+        "kind": 2,
+        "importPath": "code.retriever.finqa_utils",
+        "description": "code.retriever.finqa_utils",
+        "peekOfCode": "def prog_token_to_indices(prog, numbers, number_indices, max_seq_length,\n                          op_list, op_list_size, const_list,\n                          const_list_size):\n    prog_indices = []\n    for i, token in enumerate(prog):\n        if token in op_list:\n            prog_indices.append(op_list.index(token))\n        elif token in const_list:\n            prog_indices.append(op_list_size + const_list.index(token))\n        else:",
+        "detail": "code.retriever.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "indices_to_prog",
+        "kind": 2,
+        "importPath": "code.retriever.finqa_utils",
+        "description": "code.retriever.finqa_utils",
+        "peekOfCode": "def indices_to_prog(program_indices, numbers, number_indices, max_seq_length,\n                    op_list, op_list_size, const_list, const_list_size):\n    prog = []\n    for i, prog_id in enumerate(program_indices):\n        if prog_id < op_list_size:\n            prog.append(op_list[prog_id])\n        elif prog_id < op_list_size + const_list_size:\n            prog.append(const_list[prog_id - op_list_size])\n        else:\n            prog.append(numbers[number_indices.index(prog_id - op_list_size",
+        "detail": "code.retriever.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "tokenize",
+        "kind": 2,
+        "importPath": "code.retriever.finqa_utils",
+        "description": "code.retriever.finqa_utils",
+        "peekOfCode": "def tokenize(tokenizer, text, apply_basic_tokenization=False):\n    \"\"\"Tokenizes text, optionally looking up special tokens separately.\n    Args:\n      tokenizer: a tokenizer from bert.tokenization.FullTokenizer\n      text: text to tokenize\n      apply_basic_tokenization: If True, apply the basic tokenization. If False,\n        apply the full tokenization (basic + wordpiece).\n    Returns:\n      tokenized text.\n    A special token is any text with no spaces enclosed in square brackets with no",
+        "detail": "code.retriever.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "program_tokenization",
+        "kind": 2,
+        "importPath": "code.retriever.finqa_utils",
+        "description": "code.retriever.finqa_utils",
+        "peekOfCode": "def program_tokenization(original_program):\n    original_program = original_program.split(', ')\n    program = []\n    for tok in original_program:\n        cur_tok = ''\n        for c in tok:\n            if c == ')':\n                if cur_tok != '':\n                    program.append(cur_tok)\n                    cur_tok = ''",
+        "detail": "code.retriever.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_tf_idf_query_similarity",
+        "kind": 2,
+        "importPath": "code.retriever.finqa_utils",
+        "description": "code.retriever.finqa_utils",
+        "peekOfCode": "def get_tf_idf_query_similarity(allDocs, query):\n    \"\"\"\n    vectorizer: TfIdfVectorizer model\n    docs_tfidf: tfidf vectors for all docs\n    query: query doc\n    return: cosine similarity between query and all docs\n    \"\"\"\n    from sklearn.feature_extraction.text import TfidfVectorizer\n    from sklearn.metrics.pairwise import cosine_similarity\n    vectorizer = TfidfVectorizer(stop_words='english')",
+        "detail": "code.retriever.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "wrap_single_pair",
+        "kind": 2,
+        "importPath": "code.retriever.finqa_utils",
+        "description": "code.retriever.finqa_utils",
+        "peekOfCode": "def wrap_single_pair(tokenizer, question, context, label, max_seq_length,\n                    cls_token, sep_token):\n    '''\n    single pair of question, context, label feature\n    '''\n    question_tokens = tokenize(tokenizer, question)\n    this_gold_tokens = tokenize(tokenizer, context)\n    tokens = [cls_token] + question_tokens + [sep_token]\n    segment_ids = [0] * len(tokens)\n    tokens += this_gold_tokens",
+        "detail": "code.retriever.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "convert_single_mathqa_example",
+        "kind": 2,
+        "importPath": "code.retriever.finqa_utils",
+        "description": "code.retriever.finqa_utils",
+        "peekOfCode": "def convert_single_mathqa_example(example, option, is_training, tokenizer, max_seq_length,\n                                  cls_token, sep_token):\n    \"\"\"Converts a single MathQAExample into Multiple Retriever Features.\"\"\"\n    \"\"\" option: tf idf or all\"\"\"\n    \"\"\"train: 1:3 pos neg. Test: all\"\"\"\n    pos_features = []\n    features_neg = []\n    question = example.question\n    all_text = example.pre_text + example.post_text\n    if is_training:",
+        "detail": "code.retriever.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "read_mathqa_entry",
+        "kind": 2,
+        "importPath": "code.retriever.finqa_utils",
+        "description": "code.retriever.finqa_utils",
+        "peekOfCode": "def read_mathqa_entry(entry, tokenizer):\n    filename_id = entry[\"id\"]\n    question = entry[\"qa\"][\"question\"]\n    if \"gold_inds\" in entry[\"qa\"]:\n        all_positive = entry[\"qa\"][\"gold_inds\"]\n    else:\n        all_positive = []\n    pre_text = entry[\"pre_text\"]\n    post_text = entry[\"post_text\"]\n    table = entry[\"table\"]",
+        "detail": "code.retriever.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "_SPECIAL_TOKENS_RE",
+        "kind": 5,
+        "importPath": "code.retriever.finqa_utils",
+        "description": "code.retriever.finqa_utils",
+        "peekOfCode": "_SPECIAL_TOKENS_RE = re.compile(r\"^\\[[^ ]*\\]$\", re.UNICODE)\nsys.path.insert(0, '../utils/')\nfrom general_utils import table_row_to_text\ndef str_to_num(text):\n    text = text.replace(\",\", \"\")\n    try:\n        num = int(text)\n    except ValueError:\n        try:\n            num = float(text)",
+        "detail": "code.retriever.finqa_utils",
+        "documentation": {}
+    },
+    {
+        "label": "train",
+        "kind": 2,
+        "importPath": "code.retriever.Main",
+        "description": "code.retriever.Main",
+        "peekOfCode": "def train():\n    # keep track of all input parameters\n    write_log(log_file, \"####################INPUT PARAMETERS###################\")\n    for attr in conf.__dict__:\n        value = conf.__dict__[attr]\n        write_log(log_file, attr + \" = \" + str(value))\n    write_log(log_file, \"#######################################################\")\n    model = Bert_model(hidden_size=model_config.hidden_size,\n                       dropout_rate=conf.dropout_rate,)\n    model = nn.DataParallel(model)",
+        "detail": "code.retriever.Main",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate",
+        "kind": 2,
+        "importPath": "code.retriever.Main",
+        "description": "code.retriever.Main",
+        "peekOfCode": "def evaluate(data_ori, data, model, ksave_dir, mode='valid'):\n    pred_list = []\n    pred_unk = []\n    ksave_dir_mode = os.path.join(ksave_dir, mode)\n    os.makedirs(ksave_dir_mode, exist_ok=True)\n    data_iterator = DataLoader(\n        is_training=False, data=data, batch_size=conf.batch_size_test, shuffle=False)\n    k = 0\n    all_logits = []\n    all_filename_id = []",
+        "detail": "code.retriever.Main",
+        "documentation": {}
+    },
+    {
+        "label": "op_list",
+        "kind": 5,
+        "importPath": "code.retriever.Main",
+        "description": "code.retriever.Main",
+        "peekOfCode": "op_list = read_txt(conf.op_list_file, log_file)\nop_list = [op + '(' for op in op_list]\nop_list = ['EOF', 'UNK', 'GO', ')'] + op_list\nconst_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\ntrain_data, train_examples, op_list, const_list = \\\n    read_examples(input_path=conf.train_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nvalid_data, valid_examples, op_list, const_list = \\",
+        "detail": "code.retriever.Main",
+        "documentation": {}
+    },
+    {
+        "label": "op_list",
+        "kind": 5,
+        "importPath": "code.retriever.Main",
+        "description": "code.retriever.Main",
+        "peekOfCode": "op_list = [op + '(' for op in op_list]\nop_list = ['EOF', 'UNK', 'GO', ')'] + op_list\nconst_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\ntrain_data, train_examples, op_list, const_list = \\\n    read_examples(input_path=conf.train_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nvalid_data, valid_examples, op_list, const_list = \\\n    read_examples(input_path=conf.valid_file, tokenizer=tokenizer,",
+        "detail": "code.retriever.Main",
+        "documentation": {}
+    },
+    {
+        "label": "op_list",
+        "kind": 5,
+        "importPath": "code.retriever.Main",
+        "description": "code.retriever.Main",
+        "peekOfCode": "op_list = ['EOF', 'UNK', 'GO', ')'] + op_list\nconst_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\ntrain_data, train_examples, op_list, const_list = \\\n    read_examples(input_path=conf.train_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nvalid_data, valid_examples, op_list, const_list = \\\n    read_examples(input_path=conf.valid_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)",
+        "detail": "code.retriever.Main",
+        "documentation": {}
+    },
+    {
+        "label": "const_list",
+        "kind": 5,
+        "importPath": "code.retriever.Main",
+        "description": "code.retriever.Main",
+        "peekOfCode": "const_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\ntrain_data, train_examples, op_list, const_list = \\\n    read_examples(input_path=conf.train_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nvalid_data, valid_examples, op_list, const_list = \\\n    read_examples(input_path=conf.valid_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\ntest_data, test_examples, op_list, const_list = \\",
+        "detail": "code.retriever.Main",
+        "documentation": {}
+    },
+    {
+        "label": "const_list",
+        "kind": 5,
+        "importPath": "code.retriever.Main",
+        "description": "code.retriever.Main",
+        "peekOfCode": "const_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\ntrain_data, train_examples, op_list, const_list = \\\n    read_examples(input_path=conf.train_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nvalid_data, valid_examples, op_list, const_list = \\\n    read_examples(input_path=conf.valid_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\ntest_data, test_examples, op_list, const_list = \\\n    read_examples(input_path=conf.test_file, tokenizer=tokenizer,",
+        "detail": "code.retriever.Main",
+        "documentation": {}
+    },
+    {
+        "label": "reserved_token_size",
+        "kind": 5,
+        "importPath": "code.retriever.Main",
+        "description": "code.retriever.Main",
+        "peekOfCode": "reserved_token_size = len(op_list) + len(const_list)\ntrain_data, train_examples, op_list, const_list = \\\n    read_examples(input_path=conf.train_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nvalid_data, valid_examples, op_list, const_list = \\\n    read_examples(input_path=conf.valid_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\ntest_data, test_examples, op_list, const_list = \\\n    read_examples(input_path=conf.test_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)",
+        "detail": "code.retriever.Main",
+        "documentation": {}
+    },
+    {
+        "label": "kwargs",
+        "kind": 5,
+        "importPath": "code.retriever.Main",
+        "description": "code.retriever.Main",
+        "peekOfCode": "kwargs = {\"examples\": train_examples,\n          \"tokenizer\": tokenizer,\n          \"option\": conf.option,\n          \"is_training\": True,\n          \"max_seq_length\": conf.max_seq_length,\n          }\ntrain_features = convert_examples_to_features(**kwargs)\nkwargs[\"examples\"] = valid_examples\nkwargs[\"is_training\"] = False\nvalid_features = convert_examples_to_features(**kwargs)",
+        "detail": "code.retriever.Main",
+        "documentation": {}
+    },
+    {
+        "label": "train_features",
+        "kind": 5,
+        "importPath": "code.retriever.Main",
+        "description": "code.retriever.Main",
+        "peekOfCode": "train_features = convert_examples_to_features(**kwargs)\nkwargs[\"examples\"] = valid_examples\nkwargs[\"is_training\"] = False\nvalid_features = convert_examples_to_features(**kwargs)\nkwargs[\"examples\"] = test_examples\ntest_features = convert_examples_to_features(**kwargs)\ndef train():\n    # keep track of all input parameters\n    write_log(log_file, \"####################INPUT PARAMETERS###################\")\n    for attr in conf.__dict__:",
+        "detail": "code.retriever.Main",
+        "documentation": {}
+    },
+    {
+        "label": "kwargs[\"examples\"]",
+        "kind": 5,
+        "importPath": "code.retriever.Main",
+        "description": "code.retriever.Main",
+        "peekOfCode": "kwargs[\"examples\"] = valid_examples\nkwargs[\"is_training\"] = False\nvalid_features = convert_examples_to_features(**kwargs)\nkwargs[\"examples\"] = test_examples\ntest_features = convert_examples_to_features(**kwargs)\ndef train():\n    # keep track of all input parameters\n    write_log(log_file, \"####################INPUT PARAMETERS###################\")\n    for attr in conf.__dict__:\n        value = conf.__dict__[attr]",
+        "detail": "code.retriever.Main",
+        "documentation": {}
+    },
+    {
+        "label": "kwargs[\"is_training\"]",
+        "kind": 5,
+        "importPath": "code.retriever.Main",
+        "description": "code.retriever.Main",
+        "peekOfCode": "kwargs[\"is_training\"] = False\nvalid_features = convert_examples_to_features(**kwargs)\nkwargs[\"examples\"] = test_examples\ntest_features = convert_examples_to_features(**kwargs)\ndef train():\n    # keep track of all input parameters\n    write_log(log_file, \"####################INPUT PARAMETERS###################\")\n    for attr in conf.__dict__:\n        value = conf.__dict__[attr]\n        write_log(log_file, attr + \" = \" + str(value))",
+        "detail": "code.retriever.Main",
+        "documentation": {}
+    },
+    {
+        "label": "valid_features",
+        "kind": 5,
+        "importPath": "code.retriever.Main",
+        "description": "code.retriever.Main",
+        "peekOfCode": "valid_features = convert_examples_to_features(**kwargs)\nkwargs[\"examples\"] = test_examples\ntest_features = convert_examples_to_features(**kwargs)\ndef train():\n    # keep track of all input parameters\n    write_log(log_file, \"####################INPUT PARAMETERS###################\")\n    for attr in conf.__dict__:\n        value = conf.__dict__[attr]\n        write_log(log_file, attr + \" = \" + str(value))\n    write_log(log_file, \"#######################################################\")",
+        "detail": "code.retriever.Main",
+        "documentation": {}
+    },
+    {
+        "label": "kwargs[\"examples\"]",
+        "kind": 5,
+        "importPath": "code.retriever.Main",
+        "description": "code.retriever.Main",
+        "peekOfCode": "kwargs[\"examples\"] = test_examples\ntest_features = convert_examples_to_features(**kwargs)\ndef train():\n    # keep track of all input parameters\n    write_log(log_file, \"####################INPUT PARAMETERS###################\")\n    for attr in conf.__dict__:\n        value = conf.__dict__[attr]\n        write_log(log_file, attr + \" = \" + str(value))\n    write_log(log_file, \"#######################################################\")\n    model = Bert_model(hidden_size=model_config.hidden_size,",
+        "detail": "code.retriever.Main",
+        "documentation": {}
+    },
+    {
+        "label": "test_features",
+        "kind": 5,
+        "importPath": "code.retriever.Main",
+        "description": "code.retriever.Main",
+        "peekOfCode": "test_features = convert_examples_to_features(**kwargs)\ndef train():\n    # keep track of all input parameters\n    write_log(log_file, \"####################INPUT PARAMETERS###################\")\n    for attr in conf.__dict__:\n        value = conf.__dict__[attr]\n        write_log(log_file, attr + \" = \" + str(value))\n    write_log(log_file, \"#######################################################\")\n    model = Bert_model(hidden_size=model_config.hidden_size,\n                       dropout_rate=conf.dropout_rate,)",
+        "detail": "code.retriever.Main",
+        "documentation": {}
+    },
+    {
+        "label": "Bert_model",
+        "kind": 6,
+        "importPath": "code.retriever.Model",
+        "description": "code.retriever.Model",
+        "peekOfCode": "class Bert_model(nn.Module):\n    def __init__(self, hidden_size, dropout_rate):\n        super(Bert_model, self).__init__()\n        self.hidden_size = hidden_size\n        if conf.pretrained_model == \"bert\":\n            self.bert = BertModel.from_pretrained(\n                conf.model_size, cache_dir=conf.cache_dir)\n        elif conf.pretrained_model == \"roberta\":\n            self.bert = RobertaModel.from_pretrained(\n                conf.model_size, cache_dir=conf.cache_dir)",
+        "detail": "code.retriever.Model",
+        "documentation": {}
+    },
+    {
+        "label": "generate",
+        "kind": 2,
+        "importPath": "code.retriever.Test",
+        "description": "code.retriever.Test",
+        "peekOfCode": "def generate(data_ori, data, model, ksave_dir, mode='valid'):\n    pred_list = []\n    pred_unk = []\n    ksave_dir_mode = os.path.join(ksave_dir, mode)\n    os.makedirs(ksave_dir_mode, exist_ok=True)\n    data_iterator = DataLoader(\n        is_training=False, data=data, batch_size=conf.batch_size_test, shuffle=False)\n    k = 0\n    all_logits = []\n    all_filename_id = []",
+        "detail": "code.retriever.Test",
+        "documentation": {}
+    },
+    {
+        "label": "generate_test",
+        "kind": 2,
+        "importPath": "code.retriever.Test",
+        "description": "code.retriever.Test",
+        "peekOfCode": "def generate_test():\n    model = Bert_model(hidden_size=model_config.hidden_size,\n                       dropout_rate=conf.dropout_rate,)\n    model = nn.DataParallel(model)\n    model.to(conf.device)\n    model.load_state_dict(torch.load(conf.saved_model_path))\n    model.eval()\n    generate(test_data, test_features, model, results_path, mode='test')\nif __name__ == '__main__':\n    generate_test()",
+        "detail": "code.retriever.Test",
+        "documentation": {}
+    },
+    {
+        "label": "saved_model_path",
+        "kind": 5,
+        "importPath": "code.retriever.Test",
+        "description": "code.retriever.Test",
+        "peekOfCode": "saved_model_path = os.path.join(conf.output_path, conf.saved_model_path)\nmodel_dir_name = datetime.now().strftime(\"%Y%m%d%H%M%S\") + \\\n    \"_\" + conf.model_save_name\nmodel_dir = os.path.join(\n    conf.output_path, 'inference_only_' + model_dir_name)\nresults_path = os.path.join(model_dir, \"results\")\nos.makedirs(results_path, exist_ok=False)\nlog_file = os.path.join(results_path, 'log.txt')\nop_list = read_txt(conf.op_list_file, log_file)\nop_list = [op + '(' for op in op_list]",
+        "detail": "code.retriever.Test",
+        "documentation": {}
+    },
+    {
+        "label": "model_dir_name",
+        "kind": 5,
+        "importPath": "code.retriever.Test",
+        "description": "code.retriever.Test",
+        "peekOfCode": "model_dir_name = datetime.now().strftime(\"%Y%m%d%H%M%S\") + \\\n    \"_\" + conf.model_save_name\nmodel_dir = os.path.join(\n    conf.output_path, 'inference_only_' + model_dir_name)\nresults_path = os.path.join(model_dir, \"results\")\nos.makedirs(results_path, exist_ok=False)\nlog_file = os.path.join(results_path, 'log.txt')\nop_list = read_txt(conf.op_list_file, log_file)\nop_list = [op + '(' for op in op_list]\nop_list = ['EOF', 'UNK', 'GO', ')'] + op_list",
+        "detail": "code.retriever.Test",
+        "documentation": {}
+    },
+    {
+        "label": "model_dir",
+        "kind": 5,
+        "importPath": "code.retriever.Test",
+        "description": "code.retriever.Test",
+        "peekOfCode": "model_dir = os.path.join(\n    conf.output_path, 'inference_only_' + model_dir_name)\nresults_path = os.path.join(model_dir, \"results\")\nos.makedirs(results_path, exist_ok=False)\nlog_file = os.path.join(results_path, 'log.txt')\nop_list = read_txt(conf.op_list_file, log_file)\nop_list = [op + '(' for op in op_list]\nop_list = ['EOF', 'UNK', 'GO', ')'] + op_list\nconst_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]",
+        "detail": "code.retriever.Test",
+        "documentation": {}
+    },
+    {
+        "label": "results_path",
+        "kind": 5,
+        "importPath": "code.retriever.Test",
+        "description": "code.retriever.Test",
+        "peekOfCode": "results_path = os.path.join(model_dir, \"results\")\nos.makedirs(results_path, exist_ok=False)\nlog_file = os.path.join(results_path, 'log.txt')\nop_list = read_txt(conf.op_list_file, log_file)\nop_list = [op + '(' for op in op_list]\nop_list = ['EOF', 'UNK', 'GO', ')'] + op_list\nconst_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\ntest_data, test_examples, op_list, const_list = \\",
+        "detail": "code.retriever.Test",
+        "documentation": {}
+    },
+    {
+        "label": "log_file",
+        "kind": 5,
+        "importPath": "code.retriever.Test",
+        "description": "code.retriever.Test",
+        "peekOfCode": "log_file = os.path.join(results_path, 'log.txt')\nop_list = read_txt(conf.op_list_file, log_file)\nop_list = [op + '(' for op in op_list]\nop_list = ['EOF', 'UNK', 'GO', ')'] + op_list\nconst_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\ntest_data, test_examples, op_list, const_list = \\\n    read_examples(input_path=conf.test_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)",
+        "detail": "code.retriever.Test",
+        "documentation": {}
+    },
+    {
+        "label": "op_list",
+        "kind": 5,
+        "importPath": "code.retriever.Test",
+        "description": "code.retriever.Test",
+        "peekOfCode": "op_list = read_txt(conf.op_list_file, log_file)\nop_list = [op + '(' for op in op_list]\nop_list = ['EOF', 'UNK', 'GO', ')'] + op_list\nconst_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\ntest_data, test_examples, op_list, const_list = \\\n    read_examples(input_path=conf.test_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nkwargs = {\"examples\": test_examples,",
+        "detail": "code.retriever.Test",
+        "documentation": {}
+    },
+    {
+        "label": "op_list",
+        "kind": 5,
+        "importPath": "code.retriever.Test",
+        "description": "code.retriever.Test",
+        "peekOfCode": "op_list = [op + '(' for op in op_list]\nop_list = ['EOF', 'UNK', 'GO', ')'] + op_list\nconst_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\ntest_data, test_examples, op_list, const_list = \\\n    read_examples(input_path=conf.test_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nkwargs = {\"examples\": test_examples,\n          \"tokenizer\": tokenizer,",
+        "detail": "code.retriever.Test",
+        "documentation": {}
+    },
+    {
+        "label": "op_list",
+        "kind": 5,
+        "importPath": "code.retriever.Test",
+        "description": "code.retriever.Test",
+        "peekOfCode": "op_list = ['EOF', 'UNK', 'GO', ')'] + op_list\nconst_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\ntest_data, test_examples, op_list, const_list = \\\n    read_examples(input_path=conf.test_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nkwargs = {\"examples\": test_examples,\n          \"tokenizer\": tokenizer,\n          \"option\": conf.option,",
+        "detail": "code.retriever.Test",
+        "documentation": {}
+    },
+    {
+        "label": "const_list",
+        "kind": 5,
+        "importPath": "code.retriever.Test",
+        "description": "code.retriever.Test",
+        "peekOfCode": "const_list = read_txt(conf.const_list_file, log_file)\nconst_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\ntest_data, test_examples, op_list, const_list = \\\n    read_examples(input_path=conf.test_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nkwargs = {\"examples\": test_examples,\n          \"tokenizer\": tokenizer,\n          \"option\": conf.option,\n          \"is_training\": False,",
+        "detail": "code.retriever.Test",
+        "documentation": {}
+    },
+    {
+        "label": "const_list",
+        "kind": 5,
+        "importPath": "code.retriever.Test",
+        "description": "code.retriever.Test",
+        "peekOfCode": "const_list = [const.lower().replace('.', '_') for const in const_list]\nreserved_token_size = len(op_list) + len(const_list)\ntest_data, test_examples, op_list, const_list = \\\n    read_examples(input_path=conf.test_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nkwargs = {\"examples\": test_examples,\n          \"tokenizer\": tokenizer,\n          \"option\": conf.option,\n          \"is_training\": False,\n          \"max_seq_length\": conf.max_seq_length,",
+        "detail": "code.retriever.Test",
+        "documentation": {}
+    },
+    {
+        "label": "reserved_token_size",
+        "kind": 5,
+        "importPath": "code.retriever.Test",
+        "description": "code.retriever.Test",
+        "peekOfCode": "reserved_token_size = len(op_list) + len(const_list)\ntest_data, test_examples, op_list, const_list = \\\n    read_examples(input_path=conf.test_file, tokenizer=tokenizer,\n                  op_list=op_list, const_list=const_list, log_file=log_file)\nkwargs = {\"examples\": test_examples,\n          \"tokenizer\": tokenizer,\n          \"option\": conf.option,\n          \"is_training\": False,\n          \"max_seq_length\": conf.max_seq_length,\n          }",
+        "detail": "code.retriever.Test",
+        "documentation": {}
+    },
+    {
+        "label": "kwargs",
+        "kind": 5,
+        "importPath": "code.retriever.Test",
+        "description": "code.retriever.Test",
+        "peekOfCode": "kwargs = {\"examples\": test_examples,\n          \"tokenizer\": tokenizer,\n          \"option\": conf.option,\n          \"is_training\": False,\n          \"max_seq_length\": conf.max_seq_length,\n          }\nkwargs[\"examples\"] = test_examples\ntest_features = convert_examples_to_features(**kwargs)\ndef generate(data_ori, data, model, ksave_dir, mode='valid'):\n    pred_list = []",
+        "detail": "code.retriever.Test",
+        "documentation": {}
+    },
+    {
+        "label": "kwargs[\"examples\"]",
+        "kind": 5,
+        "importPath": "code.retriever.Test",
+        "description": "code.retriever.Test",
+        "peekOfCode": "kwargs[\"examples\"] = test_examples\ntest_features = convert_examples_to_features(**kwargs)\ndef generate(data_ori, data, model, ksave_dir, mode='valid'):\n    pred_list = []\n    pred_unk = []\n    ksave_dir_mode = os.path.join(ksave_dir, mode)\n    os.makedirs(ksave_dir_mode, exist_ok=True)\n    data_iterator = DataLoader(\n        is_training=False, data=data, batch_size=conf.batch_size_test, shuffle=False)\n    k = 0",
+        "detail": "code.retriever.Test",
+        "documentation": {}
+    },
+    {
+        "label": "test_features",
+        "kind": 5,
+        "importPath": "code.retriever.Test",
+        "description": "code.retriever.Test",
+        "peekOfCode": "test_features = convert_examples_to_features(**kwargs)\ndef generate(data_ori, data, model, ksave_dir, mode='valid'):\n    pred_list = []\n    pred_unk = []\n    ksave_dir_mode = os.path.join(ksave_dir, mode)\n    os.makedirs(ksave_dir_mode, exist_ok=True)\n    data_iterator = DataLoader(\n        is_training=False, data=data, batch_size=conf.batch_size_test, shuffle=False)\n    k = 0\n    all_logits = []",
+        "detail": "code.retriever.Test",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "kind": 6,
+        "importPath": "code.retriever.utils",
+        "description": "code.retriever.utils",
+        "peekOfCode": "class DataLoader:\n    def __init__(self, is_training, data, batch_size=64, shuffle=True):\n        \"\"\"\n        Main dataloader\n        \"\"\"\n        self.data_pos = data[0]\n        self.data_neg = data[1]\n        self.batch_size = batch_size\n        self.is_training = is_training\n        if self.is_training:",
+        "detail": "code.retriever.utils",
+        "documentation": {}
+    },
+    {
+        "label": "progress_bar",
+        "kind": 2,
+        "importPath": "code.retriever.utils",
+        "description": "code.retriever.utils",
+        "peekOfCode": "def progress_bar(current, total, msg=None):\n    global last_time, begin_time\n    if current == 0:\n        begin_time = time.time()  # Reset for new bar.\n    cur_len = int(TOTAL_BAR_LENGTH*current/total)\n    rest_len = int(TOTAL_BAR_LENGTH - cur_len) - 1\n    sys.stdout.write(' [')\n    for i in range(cur_len):\n        sys.stdout.write('=')\n    sys.stdout.write('>')",
+        "detail": "code.retriever.utils",
+        "documentation": {}
+    },
+    {
+        "label": "format_time",
+        "kind": 2,
+        "importPath": "code.retriever.utils",
+        "description": "code.retriever.utils",
+        "peekOfCode": "def format_time(seconds):\n    days = int(seconds / 3600/24)\n    seconds = seconds - days*3600*24\n    hours = int(seconds / 3600)\n    seconds = seconds - hours*3600\n    minutes = int(seconds / 60)\n    seconds = seconds - minutes*60\n    secondsf = int(seconds)\n    seconds = seconds - secondsf\n    millis = int(seconds*1000)",
+        "detail": "code.retriever.utils",
+        "documentation": {}
+    },
+    {
+        "label": "write_word",
+        "kind": 2,
+        "importPath": "code.retriever.utils",
+        "description": "code.retriever.utils",
+        "peekOfCode": "def write_word(pred_list, save_dir, name):\n    ss = open(save_dir + name, \"w+\")\n    for item in pred_list:\n        ss.write(\" \".join(item) + '\\n')\ndef get_current_git_version():\n    import git\n    repo = git.Repo(search_parent_directories=True)\n    sha = repo.head.object.hexsha\n    return sha\ndef write_log(log_file, s):",
+        "detail": "code.retriever.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_git_version",
+        "kind": 2,
+        "importPath": "code.retriever.utils",
+        "description": "code.retriever.utils",
+        "peekOfCode": "def get_current_git_version():\n    import git\n    repo = git.Repo(search_parent_directories=True)\n    sha = repo.head.object.hexsha\n    return sha\ndef write_log(log_file, s):\n    print(s)\n    with open(log_file, 'a') as f:\n        f.write(s+'\\n')\ndef _compute_softmax(scores):",
+        "detail": "code.retriever.utils",
+        "documentation": {}
+    },
+    {
+        "label": "write_log",
+        "kind": 2,
+        "importPath": "code.retriever.utils",
+        "description": "code.retriever.utils",
+        "peekOfCode": "def write_log(log_file, s):\n    print(s)\n    with open(log_file, 'a') as f:\n        f.write(s+'\\n')\ndef _compute_softmax(scores):\n    \"\"\"Compute softmax probability over raw logits.\"\"\"\n    if not scores:\n        return []\n    max_score = None\n    for score in scores:",
+        "detail": "code.retriever.utils",
+        "documentation": {}
+    },
+    {
+        "label": "read_txt",
+        "kind": 2,
+        "importPath": "code.retriever.utils",
+        "description": "code.retriever.utils",
+        "peekOfCode": "def read_txt(input_path, log_file):\n    \"\"\"Read a txt file into a list.\"\"\"\n    write_log(log_file, \"Reading: %s\" % input_path)\n    with open(input_path) as input_file:\n        input_data = input_file.readlines()\n    items = []\n    for line in input_data:\n        items.append(line.strip())\n    return items\ndef read_examples(input_path, tokenizer, op_list, const_list, log_file):",
+        "detail": "code.retriever.utils",
+        "documentation": {}
+    },
+    {
+        "label": "read_examples",
+        "kind": 2,
+        "importPath": "code.retriever.utils",
+        "description": "code.retriever.utils",
+        "peekOfCode": "def read_examples(input_path, tokenizer, op_list, const_list, log_file):\n    \"\"\"Read a json file into a list of examples.\"\"\"\n    write_log(log_file, \"Reading \" + input_path)\n    with open(input_path) as input_file:\n        input_data = json.load(input_file)\n    examples = []\n    for entry in input_data:\n        examples.append(finqa_utils.read_mathqa_entry(entry, tokenizer))\n    return input_data, examples, op_list, const_list\ndef convert_examples_to_features(examples,",
+        "detail": "code.retriever.utils",
+        "documentation": {}
+    },
+    {
+        "label": "convert_examples_to_features",
+        "kind": 2,
+        "importPath": "code.retriever.utils",
+        "description": "code.retriever.utils",
+        "peekOfCode": "def convert_examples_to_features(examples,\n                                 tokenizer,\n                                 max_seq_length,\n                                 option,\n                                 is_training,\n                                 ):\n    \"\"\"Converts a list of DropExamples into InputFeatures.\"\"\"\n    res = []\n    res_neg = []\n    for (example_index, example) in tqdm(enumerate(examples)):",
+        "detail": "code.retriever.utils",
+        "documentation": {}
+    },
+    {
+        "label": "write_predictions",
+        "kind": 2,
+        "importPath": "code.retriever.utils",
+        "description": "code.retriever.utils",
+        "peekOfCode": "def write_predictions(all_predictions, output_prediction_file):\n    \"\"\"Writes final predictions in json format.\"\"\"\n    with open(output_prediction_file, \"w\") as writer:\n        writer.write(json.dumps(all_predictions, indent=4) + \"\\n\")\nclass DataLoader:\n    def __init__(self, is_training, data, batch_size=64, shuffle=True):\n        \"\"\"\n        Main dataloader\n        \"\"\"\n        self.data_pos = data[0]",
+        "detail": "code.retriever.utils",
+        "documentation": {}
+    },
+    {
+        "label": "cleanhtml",
+        "kind": 2,
+        "importPath": "code.retriever.utils",
+        "description": "code.retriever.utils",
+        "peekOfCode": "def cleanhtml(raw_html):\n    cleanr = re.compile('<.*?>')\n    cleantext = re.sub(cleanr, '', raw_html)\n    return cleantext\ndef retrieve_evaluate(all_logits, all_filename_ids, all_inds, output_prediction_file, ori_file, topn):\n    '''\n    save results to file. calculate recall\n    '''\n    res_filename = {}\n    res_filename_inds = {}",
+        "detail": "code.retriever.utils",
+        "documentation": {}
+    },
+    {
+        "label": "retrieve_evaluate",
+        "kind": 2,
+        "importPath": "code.retriever.utils",
+        "description": "code.retriever.utils",
+        "peekOfCode": "def retrieve_evaluate(all_logits, all_filename_ids, all_inds, output_prediction_file, ori_file, topn):\n    '''\n    save results to file. calculate recall\n    '''\n    res_filename = {}\n    res_filename_inds = {}\n    for this_logit, this_filename_id, this_ind in zip(all_logits, all_filename_ids, all_inds):\n        if this_filename_id not in res_filename:\n            res_filename[this_filename_id] = []\n            res_filename_inds[this_filename_id] = []",
+        "detail": "code.retriever.utils",
+        "documentation": {}
+    },
+    {
+        "label": "retrieve_evaluate_private",
+        "kind": 2,
+        "importPath": "code.retriever.utils",
+        "description": "code.retriever.utils",
+        "peekOfCode": "def retrieve_evaluate_private(all_logits, all_filename_ids, all_inds, output_prediction_file, ori_file, topn):\n    '''\n    save results to file. calculate recall\n    '''\n    res_filename = {}\n    res_filename_inds = {}\n    for this_logit, this_filename_id, this_ind in zip(all_logits, all_filename_ids, all_inds):\n        if this_filename_id not in res_filename:\n            res_filename[this_filename_id] = []\n            res_filename_inds[this_filename_id] = []",
+        "detail": "code.retriever.utils",
+        "documentation": {}
+    },
+    {
+        "label": "TOTAL_BAR_LENGTH",
+        "kind": 5,
+        "importPath": "code.retriever.utils",
+        "description": "code.retriever.utils",
+        "peekOfCode": "TOTAL_BAR_LENGTH = 100.\nlast_time = time.time()\nbegin_time = last_time\nprint(os.popen('stty size', 'r').read())\n_, term_width = os.popen('stty size', 'r').read().split()\nterm_width = int(term_width)\ndef progress_bar(current, total, msg=None):\n    global last_time, begin_time\n    if current == 0:\n        begin_time = time.time()  # Reset for new bar.",
+        "detail": "code.retriever.utils",
+        "documentation": {}
+    },
+    {
+        "label": "last_time",
+        "kind": 5,
+        "importPath": "code.retriever.utils",
+        "description": "code.retriever.utils",
+        "peekOfCode": "last_time = time.time()\nbegin_time = last_time\nprint(os.popen('stty size', 'r').read())\n_, term_width = os.popen('stty size', 'r').read().split()\nterm_width = int(term_width)\ndef progress_bar(current, total, msg=None):\n    global last_time, begin_time\n    if current == 0:\n        begin_time = time.time()  # Reset for new bar.\n    cur_len = int(TOTAL_BAR_LENGTH*current/total)",
+        "detail": "code.retriever.utils",
+        "documentation": {}
+    },
+    {
+        "label": "begin_time",
+        "kind": 5,
+        "importPath": "code.retriever.utils",
+        "description": "code.retriever.utils",
+        "peekOfCode": "begin_time = last_time\nprint(os.popen('stty size', 'r').read())\n_, term_width = os.popen('stty size', 'r').read().split()\nterm_width = int(term_width)\ndef progress_bar(current, total, msg=None):\n    global last_time, begin_time\n    if current == 0:\n        begin_time = time.time()  # Reset for new bar.\n    cur_len = int(TOTAL_BAR_LENGTH*current/total)\n    rest_len = int(TOTAL_BAR_LENGTH - cur_len) - 1",
+        "detail": "code.retriever.utils",
+        "documentation": {}
+    },
+    {
+        "label": "term_width",
+        "kind": 5,
+        "importPath": "code.retriever.utils",
+        "description": "code.retriever.utils",
+        "peekOfCode": "term_width = int(term_width)\ndef progress_bar(current, total, msg=None):\n    global last_time, begin_time\n    if current == 0:\n        begin_time = time.time()  # Reset for new bar.\n    cur_len = int(TOTAL_BAR_LENGTH*current/total)\n    rest_len = int(TOTAL_BAR_LENGTH - cur_len) - 1\n    sys.stdout.write(' [')\n    for i in range(cur_len):\n        sys.stdout.write('=')",
+        "detail": "code.retriever.utils",
+        "documentation": {}
+    },
+    {
+        "label": "remove_space",
+        "kind": 2,
+        "importPath": "code.utils.general_utils",
+        "description": "code.utils.general_utils",
+        "peekOfCode": "def remove_space(text_in):\n    res = []\n    for tmp in text_in.split(\" \"):\n        if tmp != \"\":\n            res.append(tmp)\n    return \" \".join(res)\ndef table_row_to_text(header, row):\n    '''\n    use templates to convert table row to text\n    '''",
+        "detail": "code.utils.general_utils",
+        "documentation": {}
+    },
+    {
+        "label": "table_row_to_text",
+        "kind": 2,
+        "importPath": "code.utils.general_utils",
+        "description": "code.utils.general_utils",
+        "peekOfCode": "def table_row_to_text(header, row):\n    '''\n    use templates to convert table row to text\n    '''\n    res = \"\"\n    if header[0]:\n        res += (header[0] + \" \")\n    for head, cell in zip(header[1:], row[1:]):\n        res += (\"the \" + row[0] + \" of \" + head + \" is \" + cell + \" ; \")\n    res = remove_space(res)",
+        "detail": "code.utils.general_utils",
+        "documentation": {}
+    },
+    {
+        "label": "remove_extra_spaces",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval",
+        "description": "build_hybrid_retrieval",
+        "peekOfCode": "def remove_extra_spaces(text: str) -> str:\n    return \" \".join(str(text).split())\ndef ensure_list(value):\n    \"\"\"FinQA usually stores pre_text/post_text as lists, but this keeps the script safe.\"\"\"\n    if value is None:\n        return []\n    if isinstance(value, list):\n        return value\n    if isinstance(value, str):\n        return [value]",
+        "detail": "build_hybrid_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "ensure_list",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval",
+        "description": "build_hybrid_retrieval",
+        "peekOfCode": "def ensure_list(value):\n    \"\"\"FinQA usually stores pre_text/post_text as lists, but this keeps the script safe.\"\"\"\n    if value is None:\n        return []\n    if isinstance(value, list):\n        return value\n    if isinstance(value, str):\n        return [value]\n    return [str(value)]\ndef table_row_to_text(header, row) -> str:",
+        "detail": "build_hybrid_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "table_row_to_text",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval",
+        "description": "build_hybrid_retrieval",
+        "peekOfCode": "def table_row_to_text(header, row) -> str:\n    \"\"\"Convert one FinQA table row into readable text, similar to FinQA's utility function.\"\"\"\n    if not header or not row:\n        return \"\"\n    # Fallback if row/header lengths are unusual.\n    if len(header) < 2 or len(row) < 2:\n        return remove_extra_spaces(\" \".join(map(str, row)))\n    result = \"\"\n    if header[0]:\n        result += str(header[0]) + \" \"",
+        "detail": "build_hybrid_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "split_long_text",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval",
+        "description": "build_hybrid_retrieval",
+        "peekOfCode": "def split_long_text(text: str, max_words: int, overlap_words: int):\n    \"\"\"\n    Split only if a chunk is very long.\n    Most FinQA rows/sentences will stay unchanged.\n    \"\"\"\n    words = remove_extra_spaces(text).split()\n    if max_words <= 0 or len(words) <= max_words:\n        return [remove_extra_spaces(text)]\n    chunks = []\n    step = max(1, max_words - overlap_words)",
+        "detail": "build_hybrid_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "add_text_chunks",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval",
+        "description": "build_hybrid_retrieval",
+        "peekOfCode": "def add_text_chunks(chunks, texts, start_index, location, max_words, overlap_words):\n    \"\"\"Add pre_text or post_text chunks while preserving FinQA-style text indices.\"\"\"\n    for local_i, text in enumerate(texts):\n        global_i = start_index + local_i\n        parts = split_long_text(str(text), max_words, overlap_words)\n        for part_i, part_text in enumerate(parts):\n            chunk_id = f\"text_{global_i}\" if len(parts) == 1 else f\"text_{global_i}__part{part_i}\"\n            chunks.append({\n                \"chunk_id\": chunk_id,\n                \"chunk_type\": \"text\",",
+        "detail": "build_hybrid_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "add_table_chunks",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval",
+        "description": "build_hybrid_retrieval",
+        "peekOfCode": "def add_table_chunks(chunks, table, max_words, overlap_words):\n    \"\"\"Add one chunk per table row. Table header row is skipped.\"\"\"\n    if not isinstance(table, list) or len(table) < 2:\n        return\n    header = table[0]\n    for row_i in range(1, len(table)):\n        row_text = table_row_to_text(header, table[row_i])\n        if not row_text:\n            continue\n        parts = split_long_text(row_text, max_words, overlap_words)",
+        "detail": "build_hybrid_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "build_chunks",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval",
+        "description": "build_hybrid_retrieval",
+        "peekOfCode": "def build_chunks(example, max_words, overlap_words):\n    \"\"\"\n    Build candidate chunks from only the model-visible context:\n    pre_text + table + post_text.\n    \"\"\"\n    chunks = []\n    pre_text = ensure_list(example.get(\"pre_text\", []))\n    post_text = ensure_list(example.get(\"post_text\", []))\n    table = example.get(\"table\", [])\n    add_text_chunks(",
+        "detail": "build_hybrid_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "bm25_tokenize",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval",
+        "description": "build_hybrid_retrieval",
+        "peekOfCode": "def bm25_tokenize(text: str):\n    \"\"\"Simple keyword tokenization that keeps numbers, percentages, and finance terms.\"\"\"\n    return re.findall(r\"[a-zA-Z0-9_%.$/-]+\", str(text).lower())\ndef retrieve_faiss(model, question, chunks, top_k):\n    \"\"\"Dense semantic retrieval using SentenceTransformers + FAISS.\"\"\"\n    if not chunks:\n        return []\n    texts = [chunk[\"text\"] for chunk in chunks]\n    chunk_embeddings = model.encode(\n        texts,",
+        "detail": "build_hybrid_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "retrieve_faiss",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval",
+        "description": "build_hybrid_retrieval",
+        "peekOfCode": "def retrieve_faiss(model, question, chunks, top_k):\n    \"\"\"Dense semantic retrieval using SentenceTransformers + FAISS.\"\"\"\n    if not chunks:\n        return []\n    texts = [chunk[\"text\"] for chunk in chunks]\n    chunk_embeddings = model.encode(\n        texts,\n        convert_to_numpy=True,\n        normalize_embeddings=True,\n        show_progress_bar=False",
+        "detail": "build_hybrid_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "retrieve_bm25",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval",
+        "description": "build_hybrid_retrieval",
+        "peekOfCode": "def retrieve_bm25(question, chunks, top_k):\n    \"\"\"Keyword retrieval using BM25.\"\"\"\n    if not chunks:\n        return []\n    tokenized_chunks = [bm25_tokenize(chunk[\"text\"]) for chunk in chunks]\n    tokenized_query = bm25_tokenize(question)\n    bm25 = BM25Okapi(tokenized_chunks)\n    scores = bm25.get_scores(tokenized_query)\n    ranked_indices = np.argsort(scores)[::-1][:min(top_k, len(chunks))]\n    results = []",
+        "detail": "build_hybrid_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "merge_results",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval",
+        "description": "build_hybrid_retrieval",
+        "peekOfCode": "def merge_results(chunks, faiss_results, bm25_results, max_chunks):\n    \"\"\"\n    Simple merge:\n    1. Add FAISS chunks first.\n    2. Add BM25 chunks next.\n    3. Deduplicate by chunk_id.\n    4. Stop after max_chunks.\n    \"\"\"\n    merged = {}\n    def add_result(result, method_name):",
+        "detail": "build_hybrid_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "base_chunk_id",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval",
+        "description": "build_hybrid_retrieval",
+        "peekOfCode": "def base_chunk_id(chunk_id: str) -> str:\n    \"\"\"Used only for optional retrieval-overlap analysis.\"\"\"\n    return chunk_id.split(\"__part\")[0]\ndef gold_overlap(example, retrieved_chunks):\n    \"\"\"\n    Optional analysis only.\n    This does not affect retrieval.\n    \"\"\"\n    gold_inds = example.get(\"qa\", {}).get(\"gold_inds\", {})\n    if not gold_inds:",
+        "detail": "build_hybrid_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "gold_overlap",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval",
+        "description": "build_hybrid_retrieval",
+        "peekOfCode": "def gold_overlap(example, retrieved_chunks):\n    \"\"\"\n    Optional analysis only.\n    This does not affect retrieval.\n    \"\"\"\n    gold_inds = example.get(\"qa\", {}).get(\"gold_inds\", {})\n    if not gold_inds:\n        return None\n    gold_ids = set(gold_inds.keys())\n    retrieved_ids = {base_chunk_id(chunk[\"chunk_id\"]) for chunk in retrieved_chunks}",
+        "detail": "build_hybrid_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "process_split",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval",
+        "description": "build_hybrid_retrieval",
+        "peekOfCode": "def process_split(input_file, output_file, model, args):\n    with open(input_file, \"r\", encoding=\"utf-8\") as f:\n        data = json.load(f)\n    output_records = []\n    total_candidate_chunks = 0\n    total_retrieved_chunks = 0\n    gold_recalls = []\n    for example in tqdm(data, desc=f\"Processing {input_file.name}\"):\n        question = example[\"qa\"][\"question\"]\n        chunks = build_chunks(",
+        "detail": "build_hybrid_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval",
+        "description": "build_hybrid_retrieval",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(\n        description=\"Build hybrid FAISS + BM25 retrieved context files for expanded FinQA.\"\n    )\n    parser.add_argument(\"--input_dir\", default=\"long_dataset\")\n    parser.add_argument(\"--output_dir\", default=\"rag_retrieved\")\n    parser.add_argument(\"--embedding_model\", default=\"sentence-transformers/all-MiniLM-L6-v2\")\n    parser.add_argument(\"--faiss_top_k\", type=int, default=5)\n    parser.add_argument(\"--bm25_top_k\", type=int, default=5)\n    parser.add_argument(\"--max_final_chunks\", type=int, default=8)",
+        "detail": "build_hybrid_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "serialize_example",
+        "kind": 2,
+        "importPath": "token serializer",
+        "description": "token serializer",
+        "peekOfCode": "def serialize_example(ex):\n    return f\"\"\"Question:\n{ex[\"qa\"][\"question\"]}\nPre-text:\n{\" \".join(ex.get(\"pre_text\", [])) if isinstance(ex.get(\"pre_text\"), list) else ex.get(\"pre_text\", \"\")}\nTable:\n{ex.get(\"table\", \"\")}\nPost-text:\n{\" \".join(ex.get(\"post_text\", [])) if isinstance(ex.get(\"post_text\"), list) else ex.get(\"post_text\", \"\")}\nAnswer with a FinQA program ending in EOF.",
+        "detail": "token serializer",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL",
+        "kind": 5,
+        "importPath": "token serializer",
+        "description": "token serializer",
+        "peekOfCode": "MODEL = \"Qwen/Qwen2.5-7B-Instruct\"\nLIMIT = 12000\nFILES = [\n    \"dataset/file1.json\",\n    \"dataset/file2.json\",\n    \"dataset/file3.json\",\n]\ntokenizer = AutoTokenizer.from_pretrained(MODEL, trust_remote_code=True)\ndef serialize_example(ex):\n    return f\"\"\"Question:",
+        "detail": "token serializer",
+        "documentation": {}
+    },
+    {
+        "label": "LIMIT",
+        "kind": 5,
+        "importPath": "token serializer",
+        "description": "token serializer",
+        "peekOfCode": "LIMIT = 12000\nFILES = [\n    \"dataset/file1.json\",\n    \"dataset/file2.json\",\n    \"dataset/file3.json\",\n]\ntokenizer = AutoTokenizer.from_pretrained(MODEL, trust_remote_code=True)\ndef serialize_example(ex):\n    return f\"\"\"Question:\n{ex[\"qa\"][\"question\"]}",
+        "detail": "token serializer",
+        "documentation": {}
+    },
+    {
+        "label": "FILES",
+        "kind": 5,
+        "importPath": "token serializer",
+        "description": "token serializer",
+        "peekOfCode": "FILES = [\n    \"dataset/file1.json\",\n    \"dataset/file2.json\",\n    \"dataset/file3.json\",\n]\ntokenizer = AutoTokenizer.from_pretrained(MODEL, trust_remote_code=True)\ndef serialize_example(ex):\n    return f\"\"\"Question:\n{ex[\"qa\"][\"question\"]}\nPre-text:",
+        "detail": "token serializer",
+        "documentation": {}
+    },
+    {
+        "label": "tokenizer",
+        "kind": 5,
+        "importPath": "token serializer",
+        "description": "token serializer",
+        "peekOfCode": "tokenizer = AutoTokenizer.from_pretrained(MODEL, trust_remote_code=True)\ndef serialize_example(ex):\n    return f\"\"\"Question:\n{ex[\"qa\"][\"question\"]}\nPre-text:\n{\" \".join(ex.get(\"pre_text\", [])) if isinstance(ex.get(\"pre_text\"), list) else ex.get(\"pre_text\", \"\")}\nTable:\n{ex.get(\"table\", \"\")}\nPost-text:\n{\" \".join(ex.get(\"post_text\", [])) if isinstance(ex.get(\"post_text\"), list) else ex.get(\"post_text\", \"\")}",
+        "detail": "token serializer",
+        "documentation": {}
+    },
+    {
+        "label": "load_json",
+        "kind": 2,
+        "importPath": "validate_dataset",
+        "description": "validate_dataset",
+        "peekOfCode": "def load_json(path: str) -> tuple[list | None, str | None]:\n    \"\"\"\n    Attempt to load a JSON file.\n    Returns (data, None) on success, (None, error_message) on failure.\n    \"\"\"\n    try:\n        with open(path, \"r\", encoding=\"utf-8\") as f:\n            return json.load(f), None\n    except json.JSONDecodeError as e:\n        return None, f\"JSON decode error: {e}\"",
+        "detail": "validate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "report_failures",
+        "kind": 2,
+        "importPath": "validate_dataset",
+        "description": "validate_dataset",
+        "peekOfCode": "def report_failures(failures: list[dict]) -> None:\n    \"\"\"\n    Print failure details according to the count threshold.\n    Each item in failures is:\n      { \"id\": str, \"mismatches\": [ {\"field\": str, \"original\": ..., \"enriched\": ...} ] }\n    \"\"\"\n    count = len(failures)\n    if count == 0:\n        return\n    if count > 25:",
+        "detail": "validate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "check_counts",
+        "kind": 2,
+        "importPath": "validate_dataset",
+        "description": "validate_dataset",
+        "peekOfCode": "def check_counts(original: list, enriched: list) -> bool:\n    orig_count = len(original)\n    enr_count  = len(enriched)\n    if orig_count == enr_count:\n        print(f\"  [PASS] Entry counts match: {orig_count}\")\n        return True\n    else:\n        print(f\"  [FAIL] Entry count mismatch — original: {orig_count}, enriched: {enr_count}\")\n        return False\ndef check_ids(original: list, enriched: list) -> bool:",
+        "detail": "validate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "check_ids",
+        "kind": 2,
+        "importPath": "validate_dataset",
+        "description": "validate_dataset",
+        "peekOfCode": "def check_ids(original: list, enriched: list) -> bool:\n    orig_ids = {e[\"id\"] for e in original}\n    enr_ids  = {e[\"id\"] for e in enriched}\n    missing  = orig_ids - enr_ids   # in original but not in enriched\n    extra    = enr_ids  - orig_ids  # in enriched but not in original\n    if not missing and not extra:\n        print(f\"  [PASS] All {len(orig_ids)} ids match exactly.\")\n        return True\n    if missing:\n        count = len(missing)",
+        "detail": "validate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "check_fields",
+        "kind": 2,
+        "importPath": "validate_dataset",
+        "description": "validate_dataset",
+        "peekOfCode": "def check_fields(original: list, enriched: list) -> bool:\n    \"\"\"\n    Match every entry by id and verify that table and qa subfields are identical.\n    The entire entry is counted as one failure if any field mismatches.\n    \"\"\"\n    # Index enriched entries by id for O(1) lookup\n    enriched_by_id = {e[\"id\"]: e for e in enriched}\n    failures = []\n    for orig_entry in original:\n        entry_id = orig_entry[\"id\"]",
+        "detail": "validate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "validate_pair",
+        "kind": 2,
+        "importPath": "validate_dataset",
+        "description": "validate_dataset",
+        "peekOfCode": "def validate_pair(enriched_path: str, original_path: str) -> bool:\n    print(f\"\\n{'=' * 70}\")\n    print(f\"  Enriched : {enriched_path}\")\n    print(f\"  Original : {original_path}\")\n    print(f\"{'=' * 70}\")\n    # Check 1: JSON loads\n    print(\"\\n  [CHECK 1] Loading JSON files...\")\n    original, orig_err = load_json(original_path)\n    enriched, enr_err  = load_json(enriched_path)\n    if orig_err:",
+        "detail": "validate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "validate_dataset",
+        "description": "validate_dataset",
+        "peekOfCode": "def main():\n    print(\"\\nDataset Validation Report\")\n    print(\"=\" * 70)\n    results = {}\n    for enriched_path, original_path in FILE_PAIRS:\n        passed = validate_pair(enriched_path, original_path)\n        results[(enriched_path, original_path)] = passed\n    # Final summary\n    print(f\"\\n{'=' * 70}\")\n    print(\"SUMMARY\")",
+        "detail": "validate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "FILE_PAIRS",
+        "kind": 5,
+        "importPath": "validate_dataset",
+        "description": "validate_dataset",
+        "peekOfCode": "FILE_PAIRS = [\n    (\"long_dataset/long_dev.json\",          \"dataset/dev.json\"),\n    (\"long_dataset/long_private_test.json\", \"dataset/private_test.json\"),\n    (\"long_dataset/long_test.json\",         \"dataset/test.json\"),\n    (\"long_dataset/long_train.json\",        \"dataset/train.json\"),\n]\n# Fields inside qa that must be identical\nQA_FIELDS = (\"question\", \"program\", \"gold_inds\", \"exe_ans\", \"program_re\")\n# ---------------------------------------------------------------------------\n# Helpers",
+        "detail": "validate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "QA_FIELDS",
+        "kind": 5,
+        "importPath": "validate_dataset",
+        "description": "validate_dataset",
+        "peekOfCode": "QA_FIELDS = (\"question\", \"program\", \"gold_inds\", \"exe_ans\", \"program_re\")\n# ---------------------------------------------------------------------------\n# Helpers\n# ---------------------------------------------------------------------------\ndef load_json(path: str) -> tuple[list | None, str | None]:\n    \"\"\"\n    Attempt to load a JSON file.\n    Returns (data, None) on success, (None, error_message) on failure.\n    \"\"\"\n    try:",
+        "detail": "validate_dataset",
+        "documentation": {}
+    }
+]
