@@ -1,1 +1,7 @@
 long_dataset/ 
+rag_retrieved/
+rag_retrieved_interleaved/
+rag_retrieved_interleaved_validation/
+rag_retrieved_validation/
+rag_retrieved_interleaved_plus_validation/
+rag_retrieved_interleaved_plus/

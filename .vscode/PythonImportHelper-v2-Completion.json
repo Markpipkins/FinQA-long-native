@@ -189,6 +189,14 @@
         "documentation": {}
     },
     {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
         "label": "simplify",
         "importPath": "sympy",
         "description": "sympy",
@@ -663,6 +671,30 @@
         "documentation": {}
     },
     {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "faiss",
         "kind": 6,
         "isExtraImport": true,
@@ -677,6 +709,22 @@
         "description": "rank_bm25",
         "isExtraImport": true,
         "detail": "rank_bm25",
+        "documentation": {}
+    },
+    {
+        "label": "BM25Okapi",
+        "importPath": "rank_bm25",
+        "description": "rank_bm25",
+        "isExtraImport": true,
+        "detail": "rank_bm25",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
         "documentation": {}
     },
     {
@@ -2155,6 +2203,186 @@
         "documentation": {}
     },
     {
+        "label": "remove_extra_spaces",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval_interleaved",
+        "description": "build_hybrid_retrieval_interleaved",
+        "peekOfCode": "def remove_extra_spaces(text: str) -> str:\n    return \" \".join(str(text).split())\ndef ensure_list(value):\n    \"\"\"FinQA usually stores pre_text/post_text as lists, but this keeps the script safe.\"\"\"\n    if value is None:\n        return []\n    if isinstance(value, list):\n        return value\n    if isinstance(value, str):\n        return [value]",
+        "detail": "build_hybrid_retrieval_interleaved",
+        "documentation": {}
+    },
+    {
+        "label": "ensure_list",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval_interleaved",
+        "description": "build_hybrid_retrieval_interleaved",
+        "peekOfCode": "def ensure_list(value):\n    \"\"\"FinQA usually stores pre_text/post_text as lists, but this keeps the script safe.\"\"\"\n    if value is None:\n        return []\n    if isinstance(value, list):\n        return value\n    if isinstance(value, str):\n        return [value]\n    return [str(value)]\ndef table_row_to_text(header, row) -> str:",
+        "detail": "build_hybrid_retrieval_interleaved",
+        "documentation": {}
+    },
+    {
+        "label": "table_row_to_text",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval_interleaved",
+        "description": "build_hybrid_retrieval_interleaved",
+        "peekOfCode": "def table_row_to_text(header, row) -> str:\n    \"\"\"Convert one FinQA table row into readable text, similar to FinQA's utility function.\"\"\"\n    if not header or not row:\n        return \"\"\n    # Fallback if row/header lengths are unusual.\n    if len(header) < 2 or len(row) < 2:\n        return remove_extra_spaces(\" \".join(map(str, row)))\n    result = \"\"\n    if header[0]:\n        result += str(header[0]) + \" \"",
+        "detail": "build_hybrid_retrieval_interleaved",
+        "documentation": {}
+    },
+    {
+        "label": "split_long_text",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval_interleaved",
+        "description": "build_hybrid_retrieval_interleaved",
+        "peekOfCode": "def split_long_text(text: str, max_words: int, overlap_words: int):\n    \"\"\"\n    Split only if a chunk is very long.\n    Most FinQA rows/sentences will stay unchanged.\n    \"\"\"\n    words = remove_extra_spaces(text).split()\n    if max_words <= 0 or len(words) <= max_words:\n        return [remove_extra_spaces(text)]\n    chunks = []\n    step = max(1, max_words - overlap_words)",
+        "detail": "build_hybrid_retrieval_interleaved",
+        "documentation": {}
+    },
+    {
+        "label": "add_text_chunks",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval_interleaved",
+        "description": "build_hybrid_retrieval_interleaved",
+        "peekOfCode": "def add_text_chunks(chunks, texts, start_index, location, max_words, overlap_words):\n    \"\"\"Add pre_text or post_text chunks while preserving FinQA-style text indices.\"\"\"\n    for local_i, text in enumerate(texts):\n        global_i = start_index + local_i\n        parts = split_long_text(str(text), max_words, overlap_words)\n        for part_i, part_text in enumerate(parts):\n            chunk_id = f\"text_{global_i}\" if len(parts) == 1 else f\"text_{global_i}__part{part_i}\"\n            chunks.append({\n                \"chunk_id\": chunk_id,\n                \"chunk_type\": \"text\",",
+        "detail": "build_hybrid_retrieval_interleaved",
+        "documentation": {}
+    },
+    {
+        "label": "add_table_chunks",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval_interleaved",
+        "description": "build_hybrid_retrieval_interleaved",
+        "peekOfCode": "def add_table_chunks(chunks, table, max_words, overlap_words):\n    \"\"\"Add one chunk per table row. Table header row is skipped.\"\"\"\n    if not isinstance(table, list) or len(table) < 2:\n        return\n    header = table[0]\n    for row_i in range(1, len(table)):\n        row_text = table_row_to_text(header, table[row_i])\n        if not row_text:\n            continue\n        parts = split_long_text(row_text, max_words, overlap_words)",
+        "detail": "build_hybrid_retrieval_interleaved",
+        "documentation": {}
+    },
+    {
+        "label": "build_chunks",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval_interleaved",
+        "description": "build_hybrid_retrieval_interleaved",
+        "peekOfCode": "def build_chunks(example, max_words, overlap_words):\n    \"\"\"\n    Build candidate chunks from only the model-visible context:\n    pre_text + table + post_text.\n    \"\"\"\n    chunks = []\n    pre_text = ensure_list(example.get(\"pre_text\", []))\n    post_text = ensure_list(example.get(\"post_text\", []))\n    table = example.get(\"table\", [])\n    add_text_chunks(",
+        "detail": "build_hybrid_retrieval_interleaved",
+        "documentation": {}
+    },
+    {
+        "label": "bm25_tokenize",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval_interleaved",
+        "description": "build_hybrid_retrieval_interleaved",
+        "peekOfCode": "def bm25_tokenize(text: str):\n    \"\"\"Simple keyword tokenization that keeps numbers, percentages, and finance terms.\"\"\"\n    return re.findall(r\"[a-zA-Z0-9_%.$/-]+\", str(text).lower())\n# ---------------------------------------------------------------------\n# BM25 query expansion\n# ---------------------------------------------------------------------\nFINANCE_QUERY_EXPANSIONS = {\n    # Keep this intentionally small and finance-focused.\n    # These terms are added only to the BM25 query, not to the FAISS query.\n    \"revenue\": [\"sales\", \"net sales\", \"total revenue\", \"net revenue\"],",
+        "detail": "build_hybrid_retrieval_interleaved",
+        "documentation": {}
+    },
+    {
+        "label": "expand_finance_query",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval_interleaved",
+        "description": "build_hybrid_retrieval_interleaved",
+        "peekOfCode": "def expand_finance_query(question: str) -> str:\n    \"\"\"\n    Add a small set of finance synonyms to the BM25 query.\n    This helps BM25 when the question and evidence use different common\n    finance wording, such as \"revenue\" in the question but \"net sales\"\n    in the table. The original question is preserved at the front.\n    \"\"\"\n    question = str(question)\n    question_lower = question.lower()\n    expansion_terms = []",
+        "detail": "build_hybrid_retrieval_interleaved",
+        "documentation": {}
+    },
+    {
+        "label": "retrieve_faiss",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval_interleaved",
+        "description": "build_hybrid_retrieval_interleaved",
+        "peekOfCode": "def retrieve_faiss(model, question, chunks, top_k):\n    \"\"\"Dense semantic retrieval using SentenceTransformers + FAISS.\"\"\"\n    if not chunks:\n        return []\n    texts = [chunk[\"text\"] for chunk in chunks]\n    chunk_embeddings = model.encode(\n        texts,\n        convert_to_numpy=True,\n        normalize_embeddings=True,\n        show_progress_bar=False",
+        "detail": "build_hybrid_retrieval_interleaved",
+        "documentation": {}
+    },
+    {
+        "label": "retrieve_bm25",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval_interleaved",
+        "description": "build_hybrid_retrieval_interleaved",
+        "peekOfCode": "def retrieve_bm25(question, chunks, top_k):\n    \"\"\"Keyword retrieval using BM25.\"\"\"\n    if not chunks:\n        return []\n    tokenized_chunks = [bm25_tokenize(chunk[\"text\"]) for chunk in chunks]\n    tokenized_query = bm25_tokenize(question)\n    bm25 = BM25Okapi(tokenized_chunks)\n    scores = bm25.get_scores(tokenized_query)\n    ranked_indices = np.argsort(scores)[::-1][:min(top_k, len(chunks))]\n    results = []",
+        "detail": "build_hybrid_retrieval_interleaved",
+        "documentation": {}
+    },
+    {
+        "label": "text_index_from_chunk_id",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval_interleaved",
+        "description": "build_hybrid_retrieval_interleaved",
+        "peekOfCode": "def text_index_from_chunk_id(chunk_id: str):\n    \"\"\"Return the numeric index from text_N or text_N__partM chunk IDs.\"\"\"\n    match = re.match(r\"^text_(\\d+)(?:__part\\d+)?$\", str(chunk_id))\n    return int(match.group(1)) if match else None\ndef build_text_neighbor_lookup(chunks):\n    \"\"\"Map each FinQA-style text index to its chunk indices.\"\"\"\n    lookup = {}\n    for chunk_index, chunk in enumerate(chunks):\n        if chunk.get(\"chunk_type\") != \"text\":\n            continue",
+        "detail": "build_hybrid_retrieval_interleaved",
+        "documentation": {}
+    },
+    {
+        "label": "build_text_neighbor_lookup",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval_interleaved",
+        "description": "build_hybrid_retrieval_interleaved",
+        "peekOfCode": "def build_text_neighbor_lookup(chunks):\n    \"\"\"Map each FinQA-style text index to its chunk indices.\"\"\"\n    lookup = {}\n    for chunk_index, chunk in enumerate(chunks):\n        if chunk.get(\"chunk_type\") != \"text\":\n            continue\n        text_index = text_index_from_chunk_id(chunk.get(\"chunk_id\"))\n        if text_index is None:\n            continue\n        lookup.setdefault(text_index, []).append(chunk_index)",
+        "detail": "build_hybrid_retrieval_interleaved",
+        "documentation": {}
+    },
+    {
+        "label": "make_retrieved_chunk_record",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval_interleaved",
+        "description": "build_hybrid_retrieval_interleaved",
+        "peekOfCode": "def make_retrieved_chunk_record(chunk, selected_by=None, neighbor_of=None):\n    \"\"\"Create the saved retrieved-chunk record with consistent metadata fields.\"\"\"\n    return {\n        \"chunk_id\": chunk[\"chunk_id\"],\n        \"chunk_type\": chunk[\"chunk_type\"],\n        \"location\": chunk[\"location\"],\n        \"text\": chunk[\"text\"],\n        \"selected_by\": list(selected_by or []),\n        \"neighbor_of\": neighbor_of,\n        \"faiss_rank\": None,",
+        "detail": "build_hybrid_retrieval_interleaved",
+        "documentation": {}
+    },
+    {
+        "label": "merge_results",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval_interleaved",
+        "description": "build_hybrid_retrieval_interleaved",
+        "peekOfCode": "def merge_results(\n    chunks,\n    faiss_results,\n    bm25_results,\n    max_chunks,\n    include_text_neighbors=True,\n    text_neighbor_window=1,\n    max_primary_chunks=None\n):\n    \"\"\"",
+        "detail": "build_hybrid_retrieval_interleaved",
+        "documentation": {}
+    },
+    {
+        "label": "base_chunk_id",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval_interleaved",
+        "description": "build_hybrid_retrieval_interleaved",
+        "peekOfCode": "def base_chunk_id(chunk_id: str) -> str:\n    \"\"\"Used only for optional retrieval-overlap analysis.\"\"\"\n    return chunk_id.split(\"__part\")[0]\ndef gold_overlap(example, retrieved_chunks):\n    \"\"\"\n    Optional analysis only.\n    This does not affect retrieval.\n    \"\"\"\n    gold_inds = example.get(\"qa\", {}).get(\"gold_inds\", {})\n    if not gold_inds:",
+        "detail": "build_hybrid_retrieval_interleaved",
+        "documentation": {}
+    },
+    {
+        "label": "gold_overlap",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval_interleaved",
+        "description": "build_hybrid_retrieval_interleaved",
+        "peekOfCode": "def gold_overlap(example, retrieved_chunks):\n    \"\"\"\n    Optional analysis only.\n    This does not affect retrieval.\n    \"\"\"\n    gold_inds = example.get(\"qa\", {}).get(\"gold_inds\", {})\n    if not gold_inds:\n        return None\n    gold_ids = set(gold_inds.keys())\n    retrieved_ids = {base_chunk_id(chunk[\"chunk_id\"]) for chunk in retrieved_chunks}",
+        "detail": "build_hybrid_retrieval_interleaved",
+        "documentation": {}
+    },
+    {
+        "label": "process_split",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval_interleaved",
+        "description": "build_hybrid_retrieval_interleaved",
+        "peekOfCode": "def process_split(input_file, output_file, model, args):\n    with open(input_file, \"r\", encoding=\"utf-8\") as f:\n        data = json.load(f)\n    output_records = []\n    total_candidate_chunks = 0\n    total_retrieved_chunks = 0\n    gold_recalls = []\n    for example in tqdm(data, desc=f\"Processing {input_file.name}\"):\n        question = example[\"qa\"][\"question\"]\n        chunks = build_chunks(",
+        "detail": "build_hybrid_retrieval_interleaved",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "build_hybrid_retrieval_interleaved",
+        "description": "build_hybrid_retrieval_interleaved",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(\n        description=\"Build interleaved hybrid FAISS + BM25 retrieved context files for expanded FinQA.\"\n    )\n    parser.add_argument(\"--input_dir\", default=\"long_dataset\")\n    parser.add_argument(\"--output_dir\", default=\"rag_retrieved_interleaved_plus\")\n    parser.add_argument(\"--embedding_model\", default=\"sentence-transformers/all-MiniLM-L6-v2\")\n    parser.add_argument(\"--faiss_top_k\", type=int, default=8)\n    parser.add_argument(\"--bm25_top_k\", type=int, default=8)\n    parser.add_argument(\"--max_final_chunks\", type=int, default=10)",
+        "detail": "build_hybrid_retrieval_interleaved",
+        "documentation": {}
+    },
+    {
+        "label": "FINANCE_QUERY_EXPANSIONS",
+        "kind": 5,
+        "importPath": "build_hybrid_retrieval_interleaved",
+        "description": "build_hybrid_retrieval_interleaved",
+        "peekOfCode": "FINANCE_QUERY_EXPANSIONS = {\n    # Keep this intentionally small and finance-focused.\n    # These terms are added only to the BM25 query, not to the FAISS query.\n    \"revenue\": [\"sales\", \"net sales\", \"total revenue\", \"net revenue\"],\n    \"revenues\": [\"sales\", \"net sales\", \"total revenues\", \"net revenues\"],\n    \"sales\": [\"revenue\", \"revenues\", \"net sales\"],\n    \"income\": [\"earnings\", \"profit\", \"profits\", \"net income\", \"operating income\"],\n    \"earnings\": [\"income\", \"profit\", \"profits\", \"net income\"],\n    \"profit\": [\"income\", \"earnings\", \"net income\", \"operating income\"],\n    \"profits\": [\"income\", \"earnings\", \"net income\", \"operating income\"],",
+        "detail": "build_hybrid_retrieval_interleaved",
+        "documentation": {}
+    },
+    {
         "label": "serialize_example",
         "kind": 2,
         "importPath": "token serializer",
@@ -2278,6 +2506,96 @@
         "description": "validate_dataset",
         "peekOfCode": "QA_FIELDS = (\"question\", \"program\", \"gold_inds\", \"exe_ans\", \"program_re\")\n# ---------------------------------------------------------------------------\n# Helpers\n# ---------------------------------------------------------------------------\ndef load_json(path: str) -> tuple[list | None, str | None]:\n    \"\"\"\n    Attempt to load a JSON file.\n    Returns (data, None) on success, (None, error_message) on failure.\n    \"\"\"\n    try:",
         "detail": "validate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_text",
+        "kind": 2,
+        "importPath": "verify_gold_retrieval_overlap",
+        "description": "verify_gold_retrieval_overlap",
+        "peekOfCode": "def normalize_text(text: str) -> str:\n    \"\"\"\n    Normalize text for matching.\n    This keeps matching simple:\n    - lowercase\n    - collapse repeated whitespace\n    - strip leading/trailing spaces\n    It does not remove punctuation because punctuation and numbers may matter\n    in financial text.\n    \"\"\"",
+        "detail": "verify_gold_retrieval_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "split_front_back",
+        "kind": 2,
+        "importPath": "verify_gold_retrieval_overlap",
+        "description": "verify_gold_retrieval_overlap",
+        "peekOfCode": "def split_front_back(text: str):\n    \"\"\"\n    Split a normalized gold text string into front and back halves.\n    The split tries to avoid cutting through the middle of a word by moving\n    to the nearest space around the midpoint.\n    \"\"\"\n    text = normalize_text(text)\n    if len(text) <= 1:\n        return text, \"\"\n    midpoint = len(text) // 2",
+        "detail": "verify_gold_retrieval_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "find_substring_in_chunks",
+        "kind": 2,
+        "importPath": "verify_gold_retrieval_overlap",
+        "description": "verify_gold_retrieval_overlap",
+        "peekOfCode": "def find_substring_in_chunks(search_text, normalized_chunks):\n    \"\"\"\n    Search for one normalized string inside all retrieved chunks.\n    Returns every retrieved chunk that contains the string.\n    \"\"\"\n    search_text = normalize_text(search_text)\n    if not search_text:\n        return []\n    matches = []\n    for chunk in normalized_chunks:",
+        "detail": "verify_gold_retrieval_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "find_shortened_front",
+        "kind": 2,
+        "importPath": "verify_gold_retrieval_overlap",
+        "description": "verify_gold_retrieval_overlap",
+        "peekOfCode": "def find_shortened_front(front_text, normalized_chunks, trim_chars):\n    \"\"\"\n    Search the front half after repeatedly removing characters from the right.\n    Example:\n    original front: \"the total revenue was $ 500 million\"\n    first shortened: remove 8 rightmost characters\n    \"\"\"\n    current = normalize_text(front_text)\n    trim_steps = 0\n    while len(current) > trim_chars:",
+        "detail": "verify_gold_retrieval_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "find_shortened_back",
+        "kind": 2,
+        "importPath": "verify_gold_retrieval_overlap",
+        "description": "verify_gold_retrieval_overlap",
+        "peekOfCode": "def find_shortened_back(back_text, normalized_chunks, trim_chars):\n    \"\"\"\n    Search the back half after repeatedly removing characters from the left.\n    Example:\n    original back: \"cash flow hedges denominated in euros\"\n    first shortened: remove 8 leftmost characters\n    \"\"\"\n    current = normalize_text(back_text)\n    trim_steps = 0\n    while len(current) > trim_chars:",
+        "detail": "verify_gold_retrieval_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "score_gold_item",
+        "kind": 2,
+        "importPath": "verify_gold_retrieval_overlap",
+        "description": "verify_gold_retrieval_overlap",
+        "peekOfCode": "def score_gold_item(gold_id, gold_text, normalized_chunks, trim_chars):\n    \"\"\"\n    Score one gold evidence item against the retrieved chunks.\n    Scoring policy:\n    - full gold text found: 1.0\n    - front half found: +0.5\n    - back half found: +0.5\n    - shortened front found: +0.35\n    - shortened back found: +0.35\n    - cap total score at 1.0",
+        "detail": "verify_gold_retrieval_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_retrieved_chunks",
+        "kind": 2,
+        "importPath": "verify_gold_retrieval_overlap",
+        "description": "verify_gold_retrieval_overlap",
+        "peekOfCode": "def normalize_retrieved_chunks(retrieved_record):\n    \"\"\"\n    Prepare retrieved chunks for matching.\n    The retrieved files created by the hybrid retriever contain:\n    retrieved_chunks[*].text\n    \"\"\"\n    normalized_chunks = []\n    for chunk in retrieved_record.get(\"retrieved_chunks\", []):\n        normalized_chunks.append({\n            \"chunk_id\": chunk.get(\"chunk_id\"),",
+        "detail": "verify_gold_retrieval_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "process_split",
+        "kind": 2,
+        "importPath": "verify_gold_retrieval_overlap",
+        "description": "verify_gold_retrieval_overlap",
+        "peekOfCode": "def process_split(dataset_file, retrieved_file, output_file, trim_chars):\n    \"\"\"\n    Process one split and save a detailed gold-overlap report.\n    This does not modify the dataset.\n    This does not modify the retrieved file.\n    This does not rerun retrieval.\n    \"\"\"\n    with open(dataset_file, \"r\", encoding=\"utf-8\") as f:\n        dataset = json.load(f)\n    with open(retrieved_file, \"r\", encoding=\"utf-8\") as f:",
+        "detail": "verify_gold_retrieval_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "verify_gold_retrieval_overlap",
+        "description": "verify_gold_retrieval_overlap",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(\n        description=\"Verify interleaved retrieved chunks against actual FinQA gold evidence text after long-context expansion.\"\n    )\n    parser.add_argument(\"--dataset_dir\", default=\"long_dataset\")\n    parser.add_argument(\"--retrieved_dir\", default=\"rag_retrieved_interleaved\")\n    parser.add_argument(\"--output_dir\", default=\"rag_retrieved_interleaved_validation\")\n    parser.add_argument(\n        \"--retrieved_suffix\",\n        default=\"_interleaved_retrieved\",",
+        "detail": "verify_gold_retrieval_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "pairs",
+        "kind": 5,
+        "importPath": "verify_retrieval_files",
+        "description": "verify_retrieval_files",
+        "peekOfCode": "pairs = [\n    (\"long_dataset/long_train.json\", \"rag_retrieved/long_train_retrieved.json\"),\n    (\"long_dataset/long_dev.json\", \"rag_retrieved/long_dev_retrieved.json\"),\n    (\"long_dataset/long_test.json\", \"rag_retrieved/long_test_retrieved.json\"),\n    (\"long_dataset/long_private_test.json\", \"rag_retrieved/long_private_test_retrieved.json\"),\n]\nfor source_path, retrieved_path in pairs:\n    source = json.loads(Path(source_path).read_text(encoding=\"utf-8\"))\n    retrieved = json.loads(Path(retrieved_path).read_text(encoding=\"utf-8\"))\n    source_ids = [x[\"id\"] for x in source]",
+        "detail": "verify_retrieval_files",
         "documentation": {}
     }
 ]
