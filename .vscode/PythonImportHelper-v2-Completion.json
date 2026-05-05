@@ -1,5 +1,14 @@
 [
     {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
@@ -9,21 +18,68 @@
         "documentation": {}
     },
     {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "random",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "random",
         "description": "random",
         "detail": "random",
-        "documentation": {}
-    },
-    {
-        "label": "argparse",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "argparse",
-        "description": "argparse",
-        "detail": "argparse",
         "documentation": {}
     },
     {
@@ -50,6 +106,63 @@
         "description": "collections",
         "isExtraImport": true,
         "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
         "documentation": {}
     },
     {
@@ -95,15 +208,6 @@
         "importPath": "io",
         "description": "io",
         "detail": "io",
-        "documentation": {}
-    },
-    {
-        "label": "re",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
         "documentation": {}
     },
     {
@@ -655,46 +759,6 @@
         "documentation": {}
     },
     {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
         "label": "faiss",
         "kind": 6,
         "isExtraImport": true,
@@ -733,6 +797,42 @@
         "description": "sentence_transformers",
         "isExtraImport": true,
         "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_text",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.check_GOLD_INJECTED_gold_overlap",
+        "description": "A_custom_JSON_scripts.check_GOLD_INJECTED_gold_overlap",
+        "peekOfCode": "def normalize_text(text: str) -> str:\n    \"\"\"Lowercase and collapse whitespace for stable substring matching.\"\"\"\n    return \" \".join(str(text).lower().split())\ndef gold_text_is_present(gold_text: str, retrieved_chunks):\n    \"\"\"\n    Check whether a full normalized gold evidence string appears inside\n    any retrieved chunk text.\n    Returns:\n        (found: bool, matches: list[dict])\n    \"\"\"",
+        "detail": "A_custom_JSON_scripts.check_GOLD_INJECTED_gold_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "gold_text_is_present",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.check_GOLD_INJECTED_gold_overlap",
+        "description": "A_custom_JSON_scripts.check_GOLD_INJECTED_gold_overlap",
+        "peekOfCode": "def gold_text_is_present(gold_text: str, retrieved_chunks):\n    \"\"\"\n    Check whether a full normalized gold evidence string appears inside\n    any retrieved chunk text.\n    Returns:\n        (found: bool, matches: list[dict])\n    \"\"\"\n    norm_gold = normalize_text(gold_text)\n    if not norm_gold:\n        return False, []",
+        "detail": "A_custom_JSON_scripts.check_GOLD_INJECTED_gold_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "check_split",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.check_GOLD_INJECTED_gold_overlap",
+        "description": "A_custom_JSON_scripts.check_GOLD_INJECTED_gold_overlap",
+        "peekOfCode": "def check_split(dataset_file: Path, retrieved_file: Path, output_file: Path):\n    with open(dataset_file, \"r\", encoding=\"utf-8\") as f:\n        dataset = json.load(f)\n    with open(retrieved_file, \"r\", encoding=\"utf-8\") as f:\n        retrieved_records = json.load(f)\n    retrieved_by_id = {record[\"id\"]: record for record in retrieved_records}\n    examples_report = []\n    missing_examples = []\n    examples_scored = 0\n    total_gold_items = 0",
+        "detail": "A_custom_JSON_scripts.check_GOLD_INJECTED_gold_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.check_GOLD_INJECTED_gold_overlap",
+        "description": "A_custom_JSON_scripts.check_GOLD_INJECTED_gold_overlap",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(\n        description=\"Check strict qa.gold_inds overlap for GOLD_INJECTED_SORTED retrieval files.\"\n    )\n    parser.add_argument(\"--dataset_dir\", default=\"long_dataset\")\n    parser.add_argument(\n        \"--retrieved_dir\",\n        default=\"rag_retrieved_interleaved_plus_GOLD_INJECTED_SORTED\"\n    )\n    parser.add_argument(",
+        "detail": "A_custom_JSON_scripts.check_GOLD_INJECTED_gold_overlap",
         "documentation": {}
     },
     {
@@ -787,6 +887,339 @@
         "description": "A_custom_JSON_scripts.enrich_dataset",
         "peekOfCode": "def main():\n    args = parse_args()\n    # Seed the RNG (None = non-deterministic)\n    rng = random.Random(args.seed)\n    print(f\"Loading input file: {args.input_file}\")\n    with open(args.input_file, \"r\", encoding=\"utf-8\") as f:\n        data = json.load(f)\n    print(f\"  Loaded {len(data)} entries.\")\n    print(\"Building lookup pools...\")\n    company_pool = build_pools(data)",
         "detail": "A_custom_JSON_scripts.enrich_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_text",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "description": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "peekOfCode": "def normalize_text(text: Any) -> str:\n    \"\"\"Lowercase text and collapse whitespace for exact substring matching.\"\"\"\n    return \" \".join(str(text).lower().split())\ndef normalized_gold_items(example: Dict[str, Any]) -> List[Dict[str, str]]:\n    \"\"\"Return gold evidence items with normalized text, excluding empty strings.\"\"\"\n    gold_inds = example.get(\"qa\", {}).get(\"gold_inds\", {}) or {}\n    items = []\n    for gold_id, gold_text in gold_inds.items():\n        norm_text = normalize_text(gold_text)\n        if not norm_text:",
+        "detail": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "normalized_gold_items",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "description": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "peekOfCode": "def normalized_gold_items(example: Dict[str, Any]) -> List[Dict[str, str]]:\n    \"\"\"Return gold evidence items with normalized text, excluding empty strings.\"\"\"\n    gold_inds = example.get(\"qa\", {}).get(\"gold_inds\", {}) or {}\n    items = []\n    for gold_id, gold_text in gold_inds.items():\n        norm_text = normalize_text(gold_text)\n        if not norm_text:\n            continue\n        items.append({\n            \"gold_id\": str(gold_id),",
+        "detail": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "text_contains",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "description": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "peekOfCode": "def text_contains(norm_container: str, norm_needle: str) -> bool:\n    \"\"\"Return True if a normalized evidence string appears in normalized chunk text.\"\"\"\n    return bool(norm_needle) and norm_needle in norm_container\ndef gold_present_in_chunks(gold_item: Dict[str, str], chunks: List[Dict[str, Any]]) -> bool:\n    \"\"\"Check whether a full gold evidence text appears in any retrieved chunk.\"\"\"\n    for chunk in chunks:\n        if text_contains(normalize_text(chunk.get(\"text\", \"\")), gold_item[\"norm_text\"]):\n            return True\n    return False\ndef chunk_contains_any_gold(chunk: Dict[str, Any], gold_items: List[Dict[str, str]]) -> bool:",
+        "detail": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "gold_present_in_chunks",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "description": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "peekOfCode": "def gold_present_in_chunks(gold_item: Dict[str, str], chunks: List[Dict[str, Any]]) -> bool:\n    \"\"\"Check whether a full gold evidence text appears in any retrieved chunk.\"\"\"\n    for chunk in chunks:\n        if text_contains(normalize_text(chunk.get(\"text\", \"\")), gold_item[\"norm_text\"]):\n            return True\n    return False\ndef chunk_contains_any_gold(chunk: Dict[str, Any], gold_items: List[Dict[str, str]]) -> bool:\n    \"\"\"Protect chunks that already contain any full gold evidence text.\"\"\"\n    if chunk.get(\"gold_injected\"):\n        return True",
+        "detail": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "chunk_contains_any_gold",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "description": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "peekOfCode": "def chunk_contains_any_gold(chunk: Dict[str, Any], gold_items: List[Dict[str, str]]) -> bool:\n    \"\"\"Protect chunks that already contain any full gold evidence text.\"\"\"\n    if chunk.get(\"gold_injected\"):\n        return True\n    norm_chunk_text = normalize_text(chunk.get(\"text\", \"\"))\n    return any(text_contains(norm_chunk_text, item[\"norm_text\"]) for item in gold_items)\n# ---------------------------------------------------------------------\n# Chunk ID parsing and sorting\n# ---------------------------------------------------------------------\nLOCATION_ORDER = {",
+        "detail": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "infer_gold_type",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "description": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "peekOfCode": "def infer_gold_type(gold_id: str) -> str:\n    \"\"\"Infer whether a gold evidence item refers to text or table evidence.\"\"\"\n    if str(gold_id).startswith(\"table_\"):\n        return \"table\"\n    if str(gold_id).startswith(\"text_\"):\n        return \"text\"\n    return \"gold_injected\"\ndef parse_chunk_id(chunk_id: Any) -> Tuple[str, int, int]:\n    \"\"\"Parse IDs like text_121, table_2, or text_121__part0.\n    Returns:",
+        "detail": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "parse_chunk_id",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "description": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "peekOfCode": "def parse_chunk_id(chunk_id: Any) -> Tuple[str, int, int]:\n    \"\"\"Parse IDs like text_121, table_2, or text_121__part0.\n    Returns:\n        (prefix, numeric_id, part_number)\n    Unknown or unparsable IDs are pushed toward the end while preserving stability\n    through original_retrieved_position in the final sort key.\n    \"\"\"\n    chunk_id = str(chunk_id or \"\")\n    match = re.match(r\"^(text|table)_(\\d+)(?:__part(\\d+))?$\", chunk_id)\n    if not match:",
+        "detail": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "sort_key",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "description": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "peekOfCode": "def sort_key(chunk: Dict[str, Any]) -> Tuple[int, int, int, int]:\n    \"\"\"Sort chunks by readable document order.\n    The visible order should be:\n        pre_text -> table -> post_text -> fallback/unknown\n    Within a section, sort numerically by chunk ID and part number.\n    The original retrieval position is used only as a stable tie breaker.\n    \"\"\"\n    location = chunk.get(\"location\") or \"unknown\"\n    location_rank = LOCATION_ORDER.get(str(location), LOCATION_ORDER[\"unknown\"])\n    if \"sort_numeric_override\" in chunk:",
+        "detail": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "add_original_positions",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "description": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "peekOfCode": "def add_original_positions(chunks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:\n    \"\"\"Add 1-indexed original retrieval position before sorting or injection.\"\"\"\n    positioned = []\n    for index, chunk in enumerate(chunks, start=1):\n        new_chunk = copy.deepcopy(chunk)\n        new_chunk.setdefault(\"original_retrieved_position\", index)\n        positioned.append(new_chunk)\n    return positioned\ndef sorted_chunks(chunks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:\n    \"\"\"Return chunks sorted into readable document order.\"\"\"",
+        "detail": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "sorted_chunks",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "description": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "peekOfCode": "def sorted_chunks(chunks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:\n    \"\"\"Return chunks sorted into readable document order.\"\"\"\n    return sorted(chunks, key=sort_key)\n# ---------------------------------------------------------------------\n# Gold injection\n# ---------------------------------------------------------------------\ndef choose_replacement_index(chunks: List[Dict[str, Any]], gold_items: List[Dict[str, str]]) -> Optional[int]:\n    \"\"\"Choose the lowest-ranked chunk that does not already contain gold evidence.\n    Original ranking is represented by list position before sorting. The search\n    starts at the bottom of the list: chunk 10, then 9, then 8, etc.",
+        "detail": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "choose_replacement_index",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "description": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "peekOfCode": "def choose_replacement_index(chunks: List[Dict[str, Any]], gold_items: List[Dict[str, str]]) -> Optional[int]:\n    \"\"\"Choose the lowest-ranked chunk that does not already contain gold evidence.\n    Original ranking is represented by list position before sorting. The search\n    starts at the bottom of the list: chunk 10, then 9, then 8, etc.\n    \"\"\"\n    for index in range(len(chunks) - 1, -1, -1):\n        if not chunk_contains_any_gold(chunks[index], gold_items):\n            return index\n    return None\ndef apply_gold_type_to_replacement(",
+        "detail": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "apply_gold_type_to_replacement",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "description": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "peekOfCode": "def apply_gold_type_to_replacement(\n    replacement_chunk: Dict[str, Any],\n    gold_item: Dict[str, str],\n) -> Dict[str, Any]:\n    \"\"\"Update chunk type/location to match the injected gold evidence type.\n    If table gold replaces a text chunk, the result becomes table/table.\n    If text gold replaces a table chunk, the result becomes text/post_text by\n    default because the shifted expanded text IDs are not safe enough to locate\n    exact pre_text vs post_text position.\n    \"\"\"",
+        "detail": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "inject_missing_gold",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "description": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "peekOfCode": "def inject_missing_gold(chunks: List[Dict[str, Any]], gold_items: List[Dict[str, str]]) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:\n    \"\"\"Inject missing full gold evidence text by replacing low-ranked non-gold chunks.\"\"\"\n    working_chunks = copy.deepcopy(chunks)\n    replacements = []\n    already_present = []\n    unresolved = []\n    for gold_item in gold_items:\n        if gold_present_in_chunks(gold_item, working_chunks):\n            already_present.append(gold_item[\"gold_id\"])\n            continue",
+        "detail": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "load_json",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "description": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "peekOfCode": "def load_json(path: Path) -> Any:\n    with open(path, \"r\", encoding=\"utf-8\") as f:\n        return json.load(f)\ndef save_json(path: Path, payload: Any) -> None:\n    path.parent.mkdir(parents=True, exist_ok=True)\n    with open(path, \"w\", encoding=\"utf-8\") as f:\n        json.dump(payload, f, indent=2)\ndef process_split(\n    split: str,\n    dataset_file: Path,",
+        "detail": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "save_json",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "description": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "peekOfCode": "def save_json(path: Path, payload: Any) -> None:\n    path.parent.mkdir(parents=True, exist_ok=True)\n    with open(path, \"w\", encoding=\"utf-8\") as f:\n        json.dump(payload, f, indent=2)\ndef process_split(\n    split: str,\n    dataset_file: Path,\n    retrieved_file: Path,\n    sorted_output_file: Path,\n    gold_output_file: Path,",
+        "detail": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "process_split",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "description": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "peekOfCode": "def process_split(\n    split: str,\n    dataset_file: Path,\n    retrieved_file: Path,\n    sorted_output_file: Path,\n    gold_output_file: Path,\n) -> Dict[str, Any]:\n    \"\"\"Create sorted-only and GOLD_INJECTED_SORTED files for one split.\"\"\"\n    dataset = load_json(dataset_file)\n    retrieved_records = load_json(retrieved_file)",
+        "detail": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "description": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "peekOfCode": "def main() -> None:\n    parser = argparse.ArgumentParser(\n        description=\"Create SORTED and GOLD_INJECTED_SORTED versions of interleaved_plus retrieval files.\"\n    )\n    parser.add_argument(\"--dataset_dir\", default=\"long_dataset\")\n    parser.add_argument(\"--retrieved_dir\", default=\"rag_retrieved_interleaved_plus\")\n    parser.add_argument(\"--sorted_output_dir\", default=\"rag_retrieved_interleaved_plus_SORTED\")\n    parser.add_argument(\"--gold_output_dir\", default=\"rag_retrieved_interleaved_plus_GOLD_INJECTED_SORTED\")\n    parser.add_argument(\"--input_suffix\", default=\"_interleaved_plus_retrieved\")\n    parser.add_argument(\"--sorted_suffix\", default=\"_interleaved_plus_SORTED_retrieved\")",
+        "detail": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "LOCATION_ORDER",
+        "kind": 5,
+        "importPath": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "description": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "peekOfCode": "LOCATION_ORDER = {\n    \"pre_text\": 0,\n    \"table\": 1,\n    \"post_text\": 2,\n    \"gold_injected\": 3,\n    \"unknown\": 4,\n}\ndef infer_gold_type(gold_id: str) -> str:\n    \"\"\"Infer whether a gold evidence item refers to text or table evidence.\"\"\"\n    if str(gold_id).startswith(\"table_\"):",
+        "detail": "A_custom_JSON_scripts.postprocess_interleaved_plus_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "load_json",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.validate_dataset",
+        "description": "A_custom_JSON_scripts.validate_dataset",
+        "peekOfCode": "def load_json(path: str) -> tuple[list | None, str | None]:\n    \"\"\"\n    Attempt to load a JSON file.\n    Returns (data, None) on success, (None, error_message) on failure.\n    \"\"\"\n    try:\n        with open(path, \"r\", encoding=\"utf-8\") as f:\n            return json.load(f), None\n    except json.JSONDecodeError as e:\n        return None, f\"JSON decode error: {e}\"",
+        "detail": "A_custom_JSON_scripts.validate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "report_failures",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.validate_dataset",
+        "description": "A_custom_JSON_scripts.validate_dataset",
+        "peekOfCode": "def report_failures(failures: list[dict]) -> None:\n    \"\"\"\n    Print failure details according to the count threshold.\n    Each item in failures is:\n      { \"id\": str, \"mismatches\": [ {\"field\": str, \"original\": ..., \"enriched\": ...} ] }\n    \"\"\"\n    count = len(failures)\n    if count == 0:\n        return\n    if count > 25:",
+        "detail": "A_custom_JSON_scripts.validate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "check_counts",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.validate_dataset",
+        "description": "A_custom_JSON_scripts.validate_dataset",
+        "peekOfCode": "def check_counts(original: list, enriched: list) -> bool:\n    orig_count = len(original)\n    enr_count  = len(enriched)\n    if orig_count == enr_count:\n        print(f\"  [PASS] Entry counts match: {orig_count}\")\n        return True\n    else:\n        print(f\"  [FAIL] Entry count mismatch — original: {orig_count}, enriched: {enr_count}\")\n        return False\ndef check_ids(original: list, enriched: list) -> bool:",
+        "detail": "A_custom_JSON_scripts.validate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "check_ids",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.validate_dataset",
+        "description": "A_custom_JSON_scripts.validate_dataset",
+        "peekOfCode": "def check_ids(original: list, enriched: list) -> bool:\n    orig_ids = {e[\"id\"] for e in original}\n    enr_ids  = {e[\"id\"] for e in enriched}\n    missing  = orig_ids - enr_ids   # in original but not in enriched\n    extra    = enr_ids  - orig_ids  # in enriched but not in original\n    if not missing and not extra:\n        print(f\"  [PASS] All {len(orig_ids)} ids match exactly.\")\n        return True\n    if missing:\n        count = len(missing)",
+        "detail": "A_custom_JSON_scripts.validate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "check_fields",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.validate_dataset",
+        "description": "A_custom_JSON_scripts.validate_dataset",
+        "peekOfCode": "def check_fields(original: list, enriched: list) -> bool:\n    \"\"\"\n    Match every entry by id and verify that table and qa subfields are identical.\n    The entire entry is counted as one failure if any field mismatches.\n    \"\"\"\n    # Index enriched entries by id for O(1) lookup\n    enriched_by_id = {e[\"id\"]: e for e in enriched}\n    failures = []\n    for orig_entry in original:\n        entry_id = orig_entry[\"id\"]",
+        "detail": "A_custom_JSON_scripts.validate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "validate_pair",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.validate_dataset",
+        "description": "A_custom_JSON_scripts.validate_dataset",
+        "peekOfCode": "def validate_pair(enriched_path: str, original_path: str) -> bool:\n    print(f\"\\n{'=' * 70}\")\n    print(f\"  Enriched : {enriched_path}\")\n    print(f\"  Original : {original_path}\")\n    print(f\"{'=' * 70}\")\n    # Check 1: JSON loads\n    print(\"\\n  [CHECK 1] Loading JSON files...\")\n    original, orig_err = load_json(original_path)\n    enriched, enr_err  = load_json(enriched_path)\n    if orig_err:",
+        "detail": "A_custom_JSON_scripts.validate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.validate_dataset",
+        "description": "A_custom_JSON_scripts.validate_dataset",
+        "peekOfCode": "def main():\n    print(\"\\nDataset Validation Report\")\n    print(\"=\" * 70)\n    results = {}\n    for enriched_path, original_path in FILE_PAIRS:\n        passed = validate_pair(enriched_path, original_path)\n        results[(enriched_path, original_path)] = passed\n    # Final summary\n    print(f\"\\n{'=' * 70}\")\n    print(\"SUMMARY\")",
+        "detail": "A_custom_JSON_scripts.validate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "FILE_PAIRS",
+        "kind": 5,
+        "importPath": "A_custom_JSON_scripts.validate_dataset",
+        "description": "A_custom_JSON_scripts.validate_dataset",
+        "peekOfCode": "FILE_PAIRS = [\n    (\"long_dataset/long_dev.json\",          \"dataset/dev.json\"),\n    (\"long_dataset/long_private_test.json\", \"dataset/private_test.json\"),\n    (\"long_dataset/long_test.json\",         \"dataset/test.json\"),\n    (\"long_dataset/long_train.json\",        \"dataset/train.json\"),\n]\n# Fields inside qa that must be identical\nQA_FIELDS = (\"question\", \"program\", \"gold_inds\", \"exe_ans\", \"program_re\")\n# ---------------------------------------------------------------------------\n# Helpers",
+        "detail": "A_custom_JSON_scripts.validate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "QA_FIELDS",
+        "kind": 5,
+        "importPath": "A_custom_JSON_scripts.validate_dataset",
+        "description": "A_custom_JSON_scripts.validate_dataset",
+        "peekOfCode": "QA_FIELDS = (\"question\", \"program\", \"gold_inds\", \"exe_ans\", \"program_re\")\n# ---------------------------------------------------------------------------\n# Helpers\n# ---------------------------------------------------------------------------\ndef load_json(path: str) -> tuple[list | None, str | None]:\n    \"\"\"\n    Attempt to load a JSON file.\n    Returns (data, None) on success, (None, error_message) on failure.\n    \"\"\"\n    try:",
+        "detail": "A_custom_JSON_scripts.validate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_text",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "description": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "peekOfCode": "def normalize_text(text: str) -> str:\n    \"\"\"\n    Normalize text for matching.\n    This keeps matching simple:\n    - lowercase\n    - collapse repeated whitespace\n    - strip leading/trailing spaces\n    It does not remove punctuation because punctuation and numbers may matter\n    in financial text.\n    \"\"\"",
+        "detail": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "split_front_back",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "description": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "peekOfCode": "def split_front_back(text: str):\n    \"\"\"\n    Split a normalized gold text string into front and back halves.\n    The split tries to avoid cutting through the middle of a word by moving\n    to the nearest space around the midpoint.\n    \"\"\"\n    text = normalize_text(text)\n    if len(text) <= 1:\n        return text, \"\"\n    midpoint = len(text) // 2",
+        "detail": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "find_substring_in_chunks",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "description": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "peekOfCode": "def find_substring_in_chunks(search_text, normalized_chunks):\n    \"\"\"\n    Search for one normalized string inside all retrieved chunks.\n    Returns every retrieved chunk that contains the string.\n    \"\"\"\n    search_text = normalize_text(search_text)\n    if not search_text:\n        return []\n    matches = []\n    for chunk in normalized_chunks:",
+        "detail": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "find_shortened_front",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "description": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "peekOfCode": "def find_shortened_front(front_text, normalized_chunks, trim_chars):\n    \"\"\"\n    Search the front half after repeatedly removing characters from the right.\n    Example:\n    original front: \"the total revenue was $ 500 million\"\n    first shortened: remove 8 rightmost characters\n    \"\"\"\n    current = normalize_text(front_text)\n    trim_steps = 0\n    while len(current) > trim_chars:",
+        "detail": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "find_shortened_back",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "description": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "peekOfCode": "def find_shortened_back(back_text, normalized_chunks, trim_chars):\n    \"\"\"\n    Search the back half after repeatedly removing characters from the left.\n    Example:\n    original back: \"cash flow hedges denominated in euros\"\n    first shortened: remove 8 leftmost characters\n    \"\"\"\n    current = normalize_text(back_text)\n    trim_steps = 0\n    while len(current) > trim_chars:",
+        "detail": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "score_gold_item",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "description": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "peekOfCode": "def score_gold_item(gold_id, gold_text, normalized_chunks, trim_chars):\n    \"\"\"\n    Score one gold evidence item against the retrieved chunks.\n    Scoring policy:\n    - full gold text found: 1.0\n    - front half found: +0.5\n    - back half found: +0.5\n    - shortened front found: +0.35\n    - shortened back found: +0.35\n    - cap total score at 1.0",
+        "detail": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_retrieved_chunks",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "description": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "peekOfCode": "def normalize_retrieved_chunks(retrieved_record):\n    \"\"\"\n    Prepare retrieved chunks for matching.\n    The retrieved files created by the hybrid retriever contain:\n    retrieved_chunks[*].text\n    \"\"\"\n    normalized_chunks = []\n    for chunk in retrieved_record.get(\"retrieved_chunks\", []):\n        normalized_chunks.append({\n            \"chunk_id\": chunk.get(\"chunk_id\"),",
+        "detail": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "process_split",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "description": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "peekOfCode": "def process_split(dataset_file, retrieved_file, output_file, trim_chars):\n    \"\"\"\n    Process one split and save a detailed gold-overlap report.\n    This does not modify the dataset.\n    This does not modify the retrieved file.\n    This does not rerun retrieval.\n    \"\"\"\n    with open(dataset_file, \"r\", encoding=\"utf-8\") as f:\n        dataset = json.load(f)\n    with open(retrieved_file, \"r\", encoding=\"utf-8\") as f:",
+        "detail": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "description": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(\n        description=\"Verify interleaved retrieved chunks against actual FinQA gold evidence text after long-context expansion.\"\n    )\n    parser.add_argument(\"--dataset_dir\", default=\"long_dataset\")\n    parser.add_argument(\"--retrieved_dir\", default=\"rag_retrieved_interleaved\")\n    parser.add_argument(\"--output_dir\", default=\"rag_retrieved_interleaved_validation\")\n    parser.add_argument(\n        \"--retrieved_suffix\",\n        default=\"_interleaved_retrieved\",",
+        "detail": "A_custom_JSON_scripts.verify_gold_retrieval_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "pairs",
+        "kind": 5,
+        "importPath": "A_custom_JSON_scripts.verify_retrieval_files",
+        "description": "A_custom_JSON_scripts.verify_retrieval_files",
+        "peekOfCode": "pairs = [\n    (\"long_dataset/long_train.json\", \"rag_retrieved/long_train_retrieved.json\"),\n    (\"long_dataset/long_dev.json\", \"rag_retrieved/long_dev_retrieved.json\"),\n    (\"long_dataset/long_test.json\", \"rag_retrieved/long_test_retrieved.json\"),\n    (\"long_dataset/long_private_test.json\", \"rag_retrieved/long_private_test_retrieved.json\"),\n]\nfor source_path, retrieved_path in pairs:\n    source = json.loads(Path(source_path).read_text(encoding=\"utf-8\"))\n    retrieved = json.loads(Path(retrieved_path).read_text(encoding=\"utf-8\"))\n    source_ids = [x[\"id\"] for x in source]",
+        "detail": "A_custom_JSON_scripts.verify_retrieval_files",
         "documentation": {}
     },
     {
@@ -2425,177 +2858,6 @@
         "description": "token serializer",
         "peekOfCode": "tokenizer = AutoTokenizer.from_pretrained(MODEL, trust_remote_code=True)\ndef serialize_example(ex):\n    return f\"\"\"Question:\n{ex[\"qa\"][\"question\"]}\nPre-text:\n{\" \".join(ex.get(\"pre_text\", [])) if isinstance(ex.get(\"pre_text\"), list) else ex.get(\"pre_text\", \"\")}\nTable:\n{ex.get(\"table\", \"\")}\nPost-text:\n{\" \".join(ex.get(\"post_text\", [])) if isinstance(ex.get(\"post_text\"), list) else ex.get(\"post_text\", \"\")}",
         "detail": "token serializer",
-        "documentation": {}
-    },
-    {
-        "label": "load_json",
-        "kind": 2,
-        "importPath": "validate_dataset",
-        "description": "validate_dataset",
-        "peekOfCode": "def load_json(path: str) -> tuple[list | None, str | None]:\n    \"\"\"\n    Attempt to load a JSON file.\n    Returns (data, None) on success, (None, error_message) on failure.\n    \"\"\"\n    try:\n        with open(path, \"r\", encoding=\"utf-8\") as f:\n            return json.load(f), None\n    except json.JSONDecodeError as e:\n        return None, f\"JSON decode error: {e}\"",
-        "detail": "validate_dataset",
-        "documentation": {}
-    },
-    {
-        "label": "report_failures",
-        "kind": 2,
-        "importPath": "validate_dataset",
-        "description": "validate_dataset",
-        "peekOfCode": "def report_failures(failures: list[dict]) -> None:\n    \"\"\"\n    Print failure details according to the count threshold.\n    Each item in failures is:\n      { \"id\": str, \"mismatches\": [ {\"field\": str, \"original\": ..., \"enriched\": ...} ] }\n    \"\"\"\n    count = len(failures)\n    if count == 0:\n        return\n    if count > 25:",
-        "detail": "validate_dataset",
-        "documentation": {}
-    },
-    {
-        "label": "check_counts",
-        "kind": 2,
-        "importPath": "validate_dataset",
-        "description": "validate_dataset",
-        "peekOfCode": "def check_counts(original: list, enriched: list) -> bool:\n    orig_count = len(original)\n    enr_count  = len(enriched)\n    if orig_count == enr_count:\n        print(f\"  [PASS] Entry counts match: {orig_count}\")\n        return True\n    else:\n        print(f\"  [FAIL] Entry count mismatch — original: {orig_count}, enriched: {enr_count}\")\n        return False\ndef check_ids(original: list, enriched: list) -> bool:",
-        "detail": "validate_dataset",
-        "documentation": {}
-    },
-    {
-        "label": "check_ids",
-        "kind": 2,
-        "importPath": "validate_dataset",
-        "description": "validate_dataset",
-        "peekOfCode": "def check_ids(original: list, enriched: list) -> bool:\n    orig_ids = {e[\"id\"] for e in original}\n    enr_ids  = {e[\"id\"] for e in enriched}\n    missing  = orig_ids - enr_ids   # in original but not in enriched\n    extra    = enr_ids  - orig_ids  # in enriched but not in original\n    if not missing and not extra:\n        print(f\"  [PASS] All {len(orig_ids)} ids match exactly.\")\n        return True\n    if missing:\n        count = len(missing)",
-        "detail": "validate_dataset",
-        "documentation": {}
-    },
-    {
-        "label": "check_fields",
-        "kind": 2,
-        "importPath": "validate_dataset",
-        "description": "validate_dataset",
-        "peekOfCode": "def check_fields(original: list, enriched: list) -> bool:\n    \"\"\"\n    Match every entry by id and verify that table and qa subfields are identical.\n    The entire entry is counted as one failure if any field mismatches.\n    \"\"\"\n    # Index enriched entries by id for O(1) lookup\n    enriched_by_id = {e[\"id\"]: e for e in enriched}\n    failures = []\n    for orig_entry in original:\n        entry_id = orig_entry[\"id\"]",
-        "detail": "validate_dataset",
-        "documentation": {}
-    },
-    {
-        "label": "validate_pair",
-        "kind": 2,
-        "importPath": "validate_dataset",
-        "description": "validate_dataset",
-        "peekOfCode": "def validate_pair(enriched_path: str, original_path: str) -> bool:\n    print(f\"\\n{'=' * 70}\")\n    print(f\"  Enriched : {enriched_path}\")\n    print(f\"  Original : {original_path}\")\n    print(f\"{'=' * 70}\")\n    # Check 1: JSON loads\n    print(\"\\n  [CHECK 1] Loading JSON files...\")\n    original, orig_err = load_json(original_path)\n    enriched, enr_err  = load_json(enriched_path)\n    if orig_err:",
-        "detail": "validate_dataset",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": "validate_dataset",
-        "description": "validate_dataset",
-        "peekOfCode": "def main():\n    print(\"\\nDataset Validation Report\")\n    print(\"=\" * 70)\n    results = {}\n    for enriched_path, original_path in FILE_PAIRS:\n        passed = validate_pair(enriched_path, original_path)\n        results[(enriched_path, original_path)] = passed\n    # Final summary\n    print(f\"\\n{'=' * 70}\")\n    print(\"SUMMARY\")",
-        "detail": "validate_dataset",
-        "documentation": {}
-    },
-    {
-        "label": "FILE_PAIRS",
-        "kind": 5,
-        "importPath": "validate_dataset",
-        "description": "validate_dataset",
-        "peekOfCode": "FILE_PAIRS = [\n    (\"long_dataset/long_dev.json\",          \"dataset/dev.json\"),\n    (\"long_dataset/long_private_test.json\", \"dataset/private_test.json\"),\n    (\"long_dataset/long_test.json\",         \"dataset/test.json\"),\n    (\"long_dataset/long_train.json\",        \"dataset/train.json\"),\n]\n# Fields inside qa that must be identical\nQA_FIELDS = (\"question\", \"program\", \"gold_inds\", \"exe_ans\", \"program_re\")\n# ---------------------------------------------------------------------------\n# Helpers",
-        "detail": "validate_dataset",
-        "documentation": {}
-    },
-    {
-        "label": "QA_FIELDS",
-        "kind": 5,
-        "importPath": "validate_dataset",
-        "description": "validate_dataset",
-        "peekOfCode": "QA_FIELDS = (\"question\", \"program\", \"gold_inds\", \"exe_ans\", \"program_re\")\n# ---------------------------------------------------------------------------\n# Helpers\n# ---------------------------------------------------------------------------\ndef load_json(path: str) -> tuple[list | None, str | None]:\n    \"\"\"\n    Attempt to load a JSON file.\n    Returns (data, None) on success, (None, error_message) on failure.\n    \"\"\"\n    try:",
-        "detail": "validate_dataset",
-        "documentation": {}
-    },
-    {
-        "label": "normalize_text",
-        "kind": 2,
-        "importPath": "verify_gold_retrieval_overlap",
-        "description": "verify_gold_retrieval_overlap",
-        "peekOfCode": "def normalize_text(text: str) -> str:\n    \"\"\"\n    Normalize text for matching.\n    This keeps matching simple:\n    - lowercase\n    - collapse repeated whitespace\n    - strip leading/trailing spaces\n    It does not remove punctuation because punctuation and numbers may matter\n    in financial text.\n    \"\"\"",
-        "detail": "verify_gold_retrieval_overlap",
-        "documentation": {}
-    },
-    {
-        "label": "split_front_back",
-        "kind": 2,
-        "importPath": "verify_gold_retrieval_overlap",
-        "description": "verify_gold_retrieval_overlap",
-        "peekOfCode": "def split_front_back(text: str):\n    \"\"\"\n    Split a normalized gold text string into front and back halves.\n    The split tries to avoid cutting through the middle of a word by moving\n    to the nearest space around the midpoint.\n    \"\"\"\n    text = normalize_text(text)\n    if len(text) <= 1:\n        return text, \"\"\n    midpoint = len(text) // 2",
-        "detail": "verify_gold_retrieval_overlap",
-        "documentation": {}
-    },
-    {
-        "label": "find_substring_in_chunks",
-        "kind": 2,
-        "importPath": "verify_gold_retrieval_overlap",
-        "description": "verify_gold_retrieval_overlap",
-        "peekOfCode": "def find_substring_in_chunks(search_text, normalized_chunks):\n    \"\"\"\n    Search for one normalized string inside all retrieved chunks.\n    Returns every retrieved chunk that contains the string.\n    \"\"\"\n    search_text = normalize_text(search_text)\n    if not search_text:\n        return []\n    matches = []\n    for chunk in normalized_chunks:",
-        "detail": "verify_gold_retrieval_overlap",
-        "documentation": {}
-    },
-    {
-        "label": "find_shortened_front",
-        "kind": 2,
-        "importPath": "verify_gold_retrieval_overlap",
-        "description": "verify_gold_retrieval_overlap",
-        "peekOfCode": "def find_shortened_front(front_text, normalized_chunks, trim_chars):\n    \"\"\"\n    Search the front half after repeatedly removing characters from the right.\n    Example:\n    original front: \"the total revenue was $ 500 million\"\n    first shortened: remove 8 rightmost characters\n    \"\"\"\n    current = normalize_text(front_text)\n    trim_steps = 0\n    while len(current) > trim_chars:",
-        "detail": "verify_gold_retrieval_overlap",
-        "documentation": {}
-    },
-    {
-        "label": "find_shortened_back",
-        "kind": 2,
-        "importPath": "verify_gold_retrieval_overlap",
-        "description": "verify_gold_retrieval_overlap",
-        "peekOfCode": "def find_shortened_back(back_text, normalized_chunks, trim_chars):\n    \"\"\"\n    Search the back half after repeatedly removing characters from the left.\n    Example:\n    original back: \"cash flow hedges denominated in euros\"\n    first shortened: remove 8 leftmost characters\n    \"\"\"\n    current = normalize_text(back_text)\n    trim_steps = 0\n    while len(current) > trim_chars:",
-        "detail": "verify_gold_retrieval_overlap",
-        "documentation": {}
-    },
-    {
-        "label": "score_gold_item",
-        "kind": 2,
-        "importPath": "verify_gold_retrieval_overlap",
-        "description": "verify_gold_retrieval_overlap",
-        "peekOfCode": "def score_gold_item(gold_id, gold_text, normalized_chunks, trim_chars):\n    \"\"\"\n    Score one gold evidence item against the retrieved chunks.\n    Scoring policy:\n    - full gold text found: 1.0\n    - front half found: +0.5\n    - back half found: +0.5\n    - shortened front found: +0.35\n    - shortened back found: +0.35\n    - cap total score at 1.0",
-        "detail": "verify_gold_retrieval_overlap",
-        "documentation": {}
-    },
-    {
-        "label": "normalize_retrieved_chunks",
-        "kind": 2,
-        "importPath": "verify_gold_retrieval_overlap",
-        "description": "verify_gold_retrieval_overlap",
-        "peekOfCode": "def normalize_retrieved_chunks(retrieved_record):\n    \"\"\"\n    Prepare retrieved chunks for matching.\n    The retrieved files created by the hybrid retriever contain:\n    retrieved_chunks[*].text\n    \"\"\"\n    normalized_chunks = []\n    for chunk in retrieved_record.get(\"retrieved_chunks\", []):\n        normalized_chunks.append({\n            \"chunk_id\": chunk.get(\"chunk_id\"),",
-        "detail": "verify_gold_retrieval_overlap",
-        "documentation": {}
-    },
-    {
-        "label": "process_split",
-        "kind": 2,
-        "importPath": "verify_gold_retrieval_overlap",
-        "description": "verify_gold_retrieval_overlap",
-        "peekOfCode": "def process_split(dataset_file, retrieved_file, output_file, trim_chars):\n    \"\"\"\n    Process one split and save a detailed gold-overlap report.\n    This does not modify the dataset.\n    This does not modify the retrieved file.\n    This does not rerun retrieval.\n    \"\"\"\n    with open(dataset_file, \"r\", encoding=\"utf-8\") as f:\n        dataset = json.load(f)\n    with open(retrieved_file, \"r\", encoding=\"utf-8\") as f:",
-        "detail": "verify_gold_retrieval_overlap",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": "verify_gold_retrieval_overlap",
-        "description": "verify_gold_retrieval_overlap",
-        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(\n        description=\"Verify interleaved retrieved chunks against actual FinQA gold evidence text after long-context expansion.\"\n    )\n    parser.add_argument(\"--dataset_dir\", default=\"long_dataset\")\n    parser.add_argument(\"--retrieved_dir\", default=\"rag_retrieved_interleaved\")\n    parser.add_argument(\"--output_dir\", default=\"rag_retrieved_interleaved_validation\")\n    parser.add_argument(\n        \"--retrieved_suffix\",\n        default=\"_interleaved_retrieved\",",
-        "detail": "verify_gold_retrieval_overlap",
-        "documentation": {}
-    },
-    {
-        "label": "pairs",
-        "kind": 5,
-        "importPath": "verify_retrieval_files",
-        "description": "verify_retrieval_files",
-        "peekOfCode": "pairs = [\n    (\"long_dataset/long_train.json\", \"rag_retrieved/long_train_retrieved.json\"),\n    (\"long_dataset/long_dev.json\", \"rag_retrieved/long_dev_retrieved.json\"),\n    (\"long_dataset/long_test.json\", \"rag_retrieved/long_test_retrieved.json\"),\n    (\"long_dataset/long_private_test.json\", \"rag_retrieved/long_private_test_retrieved.json\"),\n]\nfor source_path, retrieved_path in pairs:\n    source = json.loads(Path(source_path).read_text(encoding=\"utf-8\"))\n    retrieved = json.loads(Path(retrieved_path).read_text(encoding=\"utf-8\"))\n    source_ids = [x[\"id\"] for x in source]",
-        "detail": "verify_retrieval_files",
         "documentation": {}
     }
 ]
