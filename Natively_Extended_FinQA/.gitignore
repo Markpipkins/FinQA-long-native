@@ -8,3 +8,4 @@ rag_retrieved_interleaved_plus/
 rag_retrieved_interleaved_plus_GOLD_INJECTED_SORTED/
 rag_retrieved_interleaved_plus_GOLD_INJECTED_SORTED_overlap_check/
 rag_retrieved_interleaved_plus_SORTED/
+hf_file_uploader.py
