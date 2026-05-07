@@ -15,7 +15,7 @@ import copy
 from six.moves import map
 from six.moves import range
 from six.moves import zip
-from config import parameters as conf
+from Natively_Extended_FinQA.code.retriever.config import parameters as conf
 
 _SPECIAL_TOKENS_RE = re.compile(r"^\[[^ ]*\]$", re.UNICODE)
 

@@ -9,14 +9,14 @@ import os
 from datetime import datetime
 import time
 import logging
-from utils import *
-from config import parameters as conf
+from Natively_Extended_FinQA.code.generator.utils import *
+from Natively_Extended_FinQA.code.generator.config import parameters as conf
 from torch import nn
 import torch
 import torch.optim as optim
 
 
-from Model_new import Bert_model
+from Natively_Extended_FinQA.code.generator.Model_new import Bert_model
 
 if conf.pretrained_model == "bert":
     print("Using bert")

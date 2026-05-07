@@ -9,14 +9,14 @@ import os
 from datetime import datetime
 import time
 import logging
-from utils import *
-from config import parameters as conf
+from Natively_Extended_FinQA.code.retriever.utils import *
+from Natively_Extended_FinQA.code.retriever.config import parameters as conf
 from torch import nn
 import torch
 import torch.optim as optim
 
 
-from Model import Bert_model
+from Natively_Extended_FinQA.code.retriever.Model import Bert_model
 
 if conf.pretrained_model == "bert":
     from transformers import BertTokenizer

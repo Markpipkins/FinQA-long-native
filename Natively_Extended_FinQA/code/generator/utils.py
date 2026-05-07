@@ -15,9 +15,9 @@ import math
 import numpy as np
 from tqdm import tqdm
 import torch.nn.functional as F
-from config import parameters as conf
+from Natively_Extended_FinQA.code.generator.config import parameters as conf
 from transformers import BertTokenizer, BertModel, BertConfig
-import finqa_utils as finqa_utils
+import Natively_Extended_FinQA.code.generator.finqa_utils as finqa_utils
 from sympy import simplify
 
 # Progress bar

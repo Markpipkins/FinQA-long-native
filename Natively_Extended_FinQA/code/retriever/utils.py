@@ -14,10 +14,10 @@ import collections
 import math
 import numpy as np
 import torch.nn.functional as F
-from config import parameters as conf
+from Natively_Extended_FinQA.code.retriever.config import parameters as conf
 from tqdm import tqdm
 from transformers import BertTokenizer, BertModel, BertConfig
-import finqa_utils as finqa_utils
+import Natively_Extended_FinQA.code.retriever.finqa_utils as finqa_utils
 
 # Progress bar
 

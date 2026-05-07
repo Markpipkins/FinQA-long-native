@@ -16,7 +16,7 @@ from six.moves import map
 from six.moves import range
 from six.moves import zip
 
-from config import parameters as conf
+from Natively_Extended_FinQA.code.generator.config import parameters as conf
 
 
 sys.path.insert(0, '../utils/')

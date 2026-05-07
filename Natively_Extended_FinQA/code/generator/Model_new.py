@@ -4,7 +4,7 @@ import torch.optim as optim
 import torch.nn.functional as F
 import math
 import numpy as np
-from config import parameters as conf
+from Natively_Extended_FinQA.code.generator.config import parameters as conf
 
 if conf.pretrained_model == "bert":
     from transformers import BertModel
